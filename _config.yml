@@ -18,12 +18,12 @@ source-code: https://github.com/thecdil/ipa-mhs
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Moscow High School Archeology Project
+title: Community Foundations
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Educational History and Archaeology at Moscow High School
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+description: "Welcome to the online exhibit celebrating local history at Moscow High School since 1892 and into the present. Guided by memories of community members, alumni, and current students, this exhibit tells the story of Moscow High School as told through their own stories, archival records, and archaeological artifacts recovered in both 2019 and 2023 by University of Idaho archaeologists and archaeology students."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho;history;inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
