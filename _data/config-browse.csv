@@ -4,3 +4,10 @@ creator,Creator,,,
 subject,,true
 location,,true
 identifier,,,true,Identifier
+unit_quad,Quad,
+area,Area,
+ctx,CTX,
+mat_class_1,Material Class 1,
+mat_type_1,Material Type 1,
+mat_class_2,Material Class 2,
+mat_type_2,Material Type 2,
