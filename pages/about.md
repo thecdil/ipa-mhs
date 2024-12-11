@@ -2,32 +2,36 @@
 title: About
 layout: about
 permalink: /about.html
-# include CollectionBuilder info at bottom
-credits: true
-# Edit the markdown on in this file to describe your collection
-# Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+# Moscow High School, It’s History, and It’s Archaeology
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+## Moscow High School
 
-## About CollectionBuilder CSV
+Think about some of the most formative experiences of your life - many of them might have to do with education, whatever form it may take. Learning new things is how we grow, and for the town of Moscow, Idaho, Moscow High School (MHS) is a place where so much of the community learned many of the lessons they carry with them today.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+{% include feature/image.html objectid="ipa-mhs-055" %}
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+Built in 1892, the first Moscow High School was known as the Whitworth School. In 1912, a new high school building was built across the street and is still standing today as a beloved community center. The current Moscow High School was built in 1939 where the Whitworth School once stood.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+{% include feature/image.html objectid="ipa-mhs-015;ipa-mhs-011;ipa-mhs-002" %}
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Archaeology at MHS
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+Faculty at MHS wanted to learn more about student life through time. So, Idaho Public Archaeology (IPA) at the University of Idaho teamed up with the school to do some digs at MHS. IPA archaeologists and University of Idaho students conducted those digs to learn more about student life and the history of the MHS property.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+{% include feature/image.html objectid="ipa-mhs-052" %}
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+## What is Archaeology?
+
+It’s more than just digging in the ground! Archaeologists use the stuff left behind by people in the past to learn more about human behavior.
+
+{% include feature/image.html objectid="ipa-mhs-056" %}
+
+## The Online Exhibit
+
+This exhibit serves as a tool for the Moscow community to interact with a shared heritage. This exhibit uses stories from Moscow community members, archival records, and archaeology to explore experiences at MHS over time.
+
+{% include feature/image.html objectid="mhs-1245;mhs-0115" caption="This candy wrapper, brand Hi-Chew, was found on the surface of the MHS grounds;This Ticonderoga pencil was found on the surface of the MHS grounds" %}
+
+Use the navigation bar to choose your own path and your explore MHS history and archaeology.
