@@ -1,4 +1,4 @@
-<script>{% assign carousel-items = site.data.index-carousel | where_exp: 'c', 'c.title' %}
+<script>{% assign carousel-items = site.data.index-carousel %}
     /* add item data */
     // title,text,src,btn,link
     var carouselItems = {{ carousel-items | jsonify }};
@@ -25,7 +25,7 @@
         // create indicator 
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
-        slide = `<div class="carousel-item rounded${ i == 0 ? ' active' : '' }" style="background-image:url(${carouselItems[i].src}); background-repeat:no-repeat; background-size:cover; background-position:center;">
+        slide = `<div class="carousel-item rounded${ i == 0 ? ' active' : '' }" style="background-image:url(https://objects.lib.uidaho.edu/ipa-mhs/${carouselItems[i].src}); background-repeat:no-repeat; background-size:cover; background-position:center;">
             <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3 text-start mb-3">
                 <h3 class="text-white py-2">${carouselItems[i].title}</h3>
                 <div class="row">
