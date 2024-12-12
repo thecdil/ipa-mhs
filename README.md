@@ -1,8 +1,8 @@
 # ipa-mhs
 
-Moscow High School Archeology Project
+Moscow High School Archaeology Project
 
-Moscow High School: It's History + It's Archeology
+Moscow High School: It's History + It's Archaeology
 
 Community Foundations: Educational History and Archaeology at Moscow High School
 
