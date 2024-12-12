@@ -25,14 +25,16 @@
         // create indicator 
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
-        slide = `<div class="carousel-item rounded${ i == 0 ? ' active' : '' }" style="background-image:url(https://objects.lib.uidaho.edu/ipa-mhs/${carouselItems[i].src}); background-repeat:no-repeat; background-size:cover; background-position:center;">
+        slide = `<div class="carousel-item rounded${ i == 0 ? ' active' : '' }" >
+            <img src="https://objects.lib.uidaho.edu/ipa-mhs/${carouselItems[i].src}" alt="" class="d-block h-100 m-auto">
             <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3 text-start mb-3">
                 <h3 class="text-white py-2">${carouselItems[i].title}</h3>
                 <div class="row">
-                    <div class="col-md-8">
-                    <p class="d-none d-md-block">${carouselItems[i].text}</p>
-                    </div><div class="col-md-4">
-                    <p class="text-center"><a href="${carouselItems[i].link}" class="btn btn-lg btn-outline-pride-gold text-white">${carouselItems[i].btn}</a></p>
+                    <div class="col-md-9">
+                    <p class="d-none d-md-block text-white">${carouselItems[i].text}</p>
+                    </div>
+                    <div class="col-md-3">
+                    <p class="text-center"><a href="${carouselItems[i].link}" class="btn btn-lg btn-outline-primary text-white">${carouselItems[i].btn}</a></p>
                     </div>
                 </div>
             </div></div>`;
