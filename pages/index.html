@@ -5,8 +5,6 @@ permalink: /
 custom-foot: js/index-js.html
 ---
 
-{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/ipa-mhs/01-06-124.jpg" %}
-
 <div class="border rounded mb-3">
     <div id="imageCarousel" class="carousel slide rounded carousel-dark" data-bs-ride="carousel">
         <div id="carouselIndicators" class="carousel-indicators">
@@ -26,8 +24,22 @@ custom-foot: js/index-js.html
     </div>
 </div>
 
-<p class="lead">Think about some of the most formative experiences of your life-many of them might have to do with education (in all its forms)! Learning new things is how we grow, and for the town of Moscow, Idaho, Moscow High School (MHS) is a place where a lot of the community learned many of the lessons they carry with them today. Explore this exhibit, built around objects from MHS and interviews with Moscow residents, to learn more about community heritage at Moscow High School.</p>
-
-<p>{% include feature/video.html objectid="https://youtu.be/4sfX-zb1nlE" caption="Hear from our archeologists 'What is Archeology?'"%}</p>
-
-<p>{% include feature/video.html objectid="https://youtu.be/IH39nVgzZ64" caption="A brief history of MHS" %}</p>
+<div class="row my-5">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+            {% include feature/video.html objectid="https://youtu.be/4sfX-zb1nlE" caption="Hear from our archeologists 'What is Archeology?'"%}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <p class="lead">Think about some of the most formative experiences of your life-many of them might have to do with education (in all its forms)! Learning new things is how we grow, and for the town of Moscow, Idaho, Moscow High School (MHS) is a place where a lot of the community learned many of the lessons they carry with them today. Explore this exhibit, built around objects from MHS and interviews with Moscow residents, to learn more about community heritage at Moscow High School.</p>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+            {% include feature/video.html objectid="https://youtu.be/IH39nVgzZ64" caption="A brief history of MHS" %}
+            </div>
+        </div>
+    </div>
+</div>

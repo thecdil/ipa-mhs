@@ -1,7 +1,13 @@
-<script>{% assign carousel-items = site.data.index-carousel %}
+{% assign carousel-items = site.data.index-carousel %}
+{% assign items = site.data.ipa-mhs-archives %}
+<script>
     /* add item data */
-    // title,text,src,btn,link
-    var carouselItems = {{ carousel-items | jsonify }};
+    // objectid,alt,title,text,btn,link,priority
+    var carouselItems = [
+        {% for i in carousel-items %}{% assign meta = items | where: 'objectid', i.objectid | first %}
+        { "src": "{{ meta.object_location }}", "alt": {{ i.alt | jsonify }}, "title": {{ i.title | jsonify }}, "text": {{ i.text | jsonify }}, "btn": {{ i.btn | jsonify }}, "link": "{{ i.link | relative_url }}" }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
     
     /* shuffle items */
     carouselItems.sort(function() { return 0.5 - Math.random() });
@@ -26,7 +32,7 @@
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
         slide = `<div class="carousel-item rounded${ i == 0 ? ' active' : '' }" >
-            <img src="https://objects.lib.uidaho.edu/ipa-mhs/${carouselItems[i].src}" alt="" class="d-block h-100 m-auto">
+            <img src="${carouselItems[i].src}" alt="" class="d-block h-100 m-auto">
             <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3 text-start mb-3">
                 <h3 class="text-white py-2">${carouselItems[i].title}</h3>
                 <div class="row">
