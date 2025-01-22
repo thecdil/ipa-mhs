@@ -1,18 +1,26 @@
-{% assign carousel-items = site.data.index-carousel %}
-{% assign items = site.data.ipa-mhs-archives %}
+{% assign feature-items = site.data.index-features %}
+{% assign items = site.data.ipa-mhs-archives | concat: site.data.ipa-mhs %}
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 <script>
     /* add item data */
     // objectid,alt,title,text,btn,link,priority
-    var carouselItems = [
-        {% for i in carousel-items %}{% assign meta = items | where: 'objectid', i.objectid | first %}
-        { "src": "{{ meta.object_location }}", "alt": {{ i.alt | jsonify }}, "title": {{ i.title | jsonify }}, "text": {{ i.text | jsonify }}, "btn": {{ i.btn | jsonify }}, "link": "{{ i.link | relative_url }}" }{% unless forloop.last %},{% endunless %}
+    var featureItems = [
+        {% for i in feature-items %}{% assign meta = items | where: 'objectid', i.objectid | first %}
+        { 
+            "src": "{{ meta.object_location }}", 
+            "th": "{{ meta.image_thumb }}", 
+            "sm": "{{ meta.image_small }}", 
+            "alt": {{ i.alt | jsonify }}, 
+            "title": {{ i.title | default: meta.title | jsonify }}, "text": {{ i.text | default: meta.description | jsonify }}, "btn": {{ i.btn | default: 'View Item' | jsonify }}, 
+            "link": "{% if i.link %}{{ i.link | relative_url }}{% else %}{{ '/items/' | relative_url }}{% if meta.parentid %}{{ meta.parentid }}.html#{{ meta.objectid }}{% else %}{{ meta.objectid }}.html{% endif %}{% endif %}" 
+        }{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ];
     
     /* shuffle items */
-    carouselItems.sort(function() { return 0.5 - Math.random() });
+    featureItems.sort(function() { return 0.5 - Math.random() });
     /* Sort the array, putting priority items first */
-    carouselItems.sort((a, b) => {
+    featureItems.sort((a, b) => {
         // If both items have the same value, maintain original order
         if (a.priority === b.priority) {
             return 0;
@@ -22,6 +30,7 @@
     });
 
     /* add items to carousel */
+    /*
     var carousel = document.getElementById("carouselInner");
     var carouselIndicators = document.getElementById("carouselIndicators");
     var slides = "";
@@ -32,15 +41,15 @@
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
         slide = `<div class="carousel-item rounded${ i == 0 ? ' active' : '' }" >
-            <img src="${carouselItems[i].src}" alt="" class="d-block h-100 m-auto">
+            <img src="${featureItems[i].src}" alt="" class="d-block h-100 m-auto">
             <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3 text-start mb-3">
-                <h3 class="text-white py-2">${carouselItems[i].title}</h3>
+                <h3 class="text-white py-2">${featureItems[i].title}</h3>
                 <div class="row">
                     <div class="col-md-9">
-                    <p class="d-none d-md-block text-white">${carouselItems[i].text}</p>
+                    <p class="d-none d-md-block text-white">${featureItems[i].text}</p>
                     </div>
                     <div class="col-md-3">
-                    <p class="text-center"><a href="${carouselItems[i].link}" class="btn btn-lg btn-outline-primary text-white">${carouselItems[i].btn}</a></p>
+                    <p class="text-center"><a href="${featureItems[i].link}" class="btn btn-lg btn-outline-primary text-white">${featureItems[i].btn}</a></p>
                     </div>
                 </div>
             </div></div>`;
@@ -51,4 +60,5 @@
     carouselIndicators.innerHTML = indicators;
     // add slides to the page
     carousel.innerHTML = slides;
+    */
 </script>
