@@ -2,7 +2,7 @@
 
 Moscow High School Archaeology Project
 
-Moscow High School: It's History + It's Archaeology
+Moscow High School: Its History + Its Archaeology
 
 Community Foundations: Educational History and Archaeology at Moscow High School
 
