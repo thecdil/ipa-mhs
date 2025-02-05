@@ -5448,7 +5448,8 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-02302,11,2,2,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,CAP PEN,,,,,,,,,,,
 23-02303,11,2,2,SYNTHETIC,BAKELITE,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-02304,11,2,2,SYNTHETIC,RESIN,,,PAPER,PAPER,PLASTIC UNIDENTIFIED,,,,,,,,,,,
-23-02305,11,2,2,SYNTHETIC,PLASTIC MISC,,,BOTTLE,BOTTLE,CAP BOTTLE,,,,YES,mhs-23-02305,,artifact,,,,
+23-02305,11,2,2,SYNTHETIC,PLASTIC MISC,,,BOTTLE,BOTTLE,CAP BOTTLE,,,1c,YES,mhs-23-02305,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02305.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02305.1c_th.jpg
+,,,,,,,,,,,,,,,mhs-23-02305.1c,mhs-23-02305,image,mhs_23-02305.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-02305.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02305.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02305.1c_th.jpg
 23-02306,11,2,2,SYNTHETIC,PLASTIC MISC,,,SPOON,SPOON,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-02307,11,2,2,SYNTHETIC,PLASTIC MISC,,,SPOON,SPOON,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-02308,11,2,2,SYNTHETIC,PLASTIC MISC,METAL,IRON,TACK,TACK,TACK WIRE,,,,YES,mhs-23-02308,,artifact,,,,
@@ -5579,7 +5580,8 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-02433,STP 26,2,2,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE MISC,,,,,,,,,,,
 23-02434,STP 26,2,2,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE MISC,,,,,,,,,,,
 23-02435,STP 26,2,2,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,FLAT GLASS,,,,,,,,,,,
-23-02436,STP 26,2,2,SYNTHETIC,PAPER,,,BOTTLE,BOTTLE,BOTTLE MEDICINE/PATENT,,,,YES,mhs-23-02436,,artifact,,,,
+23-02436,STP 26,2,2,SYNTHETIC,PAPER,,,BOTTLE,BOTTLE,BOTTLE MEDICINE/PATENT,,,1a,YES,mhs-23-02436,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02436.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02436.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-02436.1a,mhs-23-02436,image,mhs_23-02436.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-02436.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02436.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02436.1a_th.jpg
 23-02437,15,2,3,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE BEER,,,,,,,,,,,
 23-02438,15,2,3,GLASS,GLASS,,,UNIDENTIFIED,UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
 23-02439,15,2,3,ORGANIC,WOOD,ORGANIC,CHARCOAL,WOOD,WOOD,CHARCOAL,,,,,,,,,,,
@@ -8190,9 +8192,11 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-05107,TU 14,2,1,CERAMIC,WHITEWARE,,,HOLLOWARE,HOLLOWARE,HOLLOWARE,,,,,,,,,,,
 23-05108,TU 14,2,1,CERAMIC,WHITEWARE,,,FLATWARE,FLATWARE,FLATWARE,,,,,,,,,,,
 23-05109,TU 14,2,1,MINERAL,MORTAR,,,MORTAR,MORTAR,MORTAR,,,,,,,,,,,
-23-05110,TU 14,2,1,MINERAL,BRICK,,,BRICK,BRICK,BRICK,,,,,,,,,,,
+23-05110,TU 14,2,1,MINERAL,BRICK,,,BRICK,BRICK,BRICK,,,1a,YES,mhs-23-05110,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-05110.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-05110.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-05110.1a,mhs-23-05110,image,mhs_23-05110.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-05110.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-05110.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-05110.1a_th.jpg
 23-05111,TU 14,2,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,FLAT GLASS,,,,,,,,,,,
-23-05112,TU 14,2,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,FLAT GLASS,,,,,,,,,,,
+23-05112,TU 14,2,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,FLAT GLASS,,,1a,YES,mhs-23-05112,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-05112.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-05112.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-05112.1a,mhs-23-05112,image,mhs_23-05112.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-05112.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-05112.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-05112.1a_th.jpg
 23-05113,TU 14,2,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,FLAT GLASS,,,,,,,,,,,
 23-05114,TU 14,2,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,FLAT GLASS,,,,,,,,,,,
 23-05115,TU 14,2,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,FLAT GLASS,,,,,,,,,,,
