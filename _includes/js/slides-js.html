@@ -1,0 +1,65 @@
+
+<script>
+window.addEventListener('load', function () {
+    var startingSlide = "startingSlide";
+    if (window.location.hash) {
+        /* if url has a hash, open the related item modal */
+        var hashModal = decodeURIComponent(location.hash.substr(1));
+        if (document.querySelector('div#' + hashModal)) {
+            startingSlide = hashModal;
+        }
+    }
+    // open slide    
+    const startingSlideModal = new bootstrap.Modal(document.getElementById(startingSlide));
+    startingSlideModal.show();
+
+});
+
+function leftModalArrowPressed() {
+    // Get the modal element.
+    var modalshow = document.querySelector(".modal.show");
+    // If the modal exists, get the prev button element.
+    if (modalshow) {
+        const prevButton = modalshow.querySelector(".prev-slide-button");
+        // If the prev button exists, click it.
+        if (prevButton) {
+            prevButton.click();
+        }
+    }
+};
+
+function rightModalArrowPressed() {
+    // Get the modal element.
+    var modalshow = document.querySelector(".modal.show");
+    // If the modal exists, get the prev button element.
+    if (modalshow) {
+        const nextButton = modalshow.querySelector(".next-slide-button");
+        // If the prev button exists, click it.
+        if (nextButton) {
+            nextButton.click();
+        }
+    }
+};
+  
+function isModalShown() {
+    // Get the modal element.
+    const modal = document.querySelector(".modal.show");
+    // Check if the modal has the "show" class.
+    return modal && modal.classList.contains("show");
+};
+  
+document.onkeydown = function (evt) {
+    if (isModalShown()) {
+        // The modal is shown.
+        evt = evt || window.event;
+        switch (evt.keyCode) {
+            case 37:
+            leftModalArrowPressed();
+                break;
+            case 39:
+            rightModalArrowPressed();
+                break;
+        }
+    }
+};
+</script>

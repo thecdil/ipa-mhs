@@ -1,0 +1,46 @@
+{% comment %}
+
+    Bootstrap Jumbotron, https://getbootstrap.com/docs/5.1/examples/jumbotron/
+    This include adds a Jumbotron feature from an objectid.
+
+    E.G. --> {% include feature/jumbotron.html objectid="demo_001" %}
+
+    Options:
+    - "objectid" = one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, by default this the image will be the featured-image set in theme.yml.
+    - "position" = set background-position, "center", "top", "bottom"
+    - "heading" = major heading to display. By default this will be the site title. Give the value false for no heading.
+    - "text" = paragraph text below heading. By default this will be the site tagline. Give the value false for no text.
+
+    Note: if using a YouTube item and an error image appears, the video may not have a "maxresdefault" image available. Replace "maxresdefault.jpg" in the code below with "hqdefault.jpg"
+
+{%- endcomment -%}
+{% assign jumbo_div_id = "j-" | append: include.objectid | slugify | truncate: 12, "" %}
+{% assign jumboId = include.objectid | default: site.data.featured_item.src %}
+{% if jumboId contains '/' %}
+{% assign jumboSrc = jumboId | relative_url %}
+{% else %}
+{% assign jumboItem = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where: "objectid", jumboId | first %}
+{% capture jumboSrc %}{{ jumboItem.object_location | default: jumboItem.image_small | relative_url }}{% endcapture %}
+{%- endif -%}
+
+<style>
+
+#{{ jumbo_div_id }} {
+    padding: 4rem 2rem;
+    border-radius: 0.3rem;
+    background-image: url({{ jumboSrc }});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: {{ include.position | default: 'center' }};
+}
+</style>
+<div class="my-4">
+<a href="{{ include.link | relative_url }}"><div class="jumbotron feature px-0 border" id="{{ jumbo_div_id }}">
+    <div class="jumbo-title-box">
+        <div class="p-2 text-center text-white bg-dark bg-opacity-75">
+            <h2 class="display-5 limelight-regular">{{ include.heading }}</h2>
+            <p class="jumbo-tagline">{{ include.text }}</p>
+        </div>
+    </div>
+</div></a>
+</div>

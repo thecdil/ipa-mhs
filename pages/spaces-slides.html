@@ -1,0 +1,73 @@
+---
+title: "Hallways, Staircases, and Classrooms: Movement and Spaces at MHS"
+layout: slides
+permalink: /spaces-slides.html
+custom-foot: js/slides-js.html
+---
+
+{% assign slides = site.essays | where: 'feature', 'spaces' %}
+{% for s in slides %}
+<div class="modal fade" id="{% if forloop.first %}startingSlide{% else %}{{ s.slug }}{% endif %}" tabindex="-1" role="dialog" aria-labelledby="{{ s.slug }}ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            {% assign images = s.images | split: ';' %}
+                            {% assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives %}
+                            {% for i in images %}
+                            <div class="col p-3">
+                                {% assign item = items | where: 'objectid', i | first %}
+                                <a class="" title="{{ item.title | escape }}" href="{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}">
+                                    <img src="{{ item.image_small | relative_url }}" alt="{{ item.image_alt_text | default: item.description | default: item.title | escape }}" class="img-fluid">
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <p>{{ s.content }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer d-flex justify-content-between">
+                
+                <div class="text-start">
+                    {% if s.previous %}
+                    <button data-bs-target="#{% if forloop.index == 2 %}startingSlide{% else %}{{ s.previous.slug }}{% endif %}" data-bs-toggle="modal" onclick="window.location.hash='{% if forloop.index == 2 %}startingSlide{% else %}{{ s.previous.slug }}{% endif %}'" class="btn btn-outline-dark prev-slide-button" >
+                        <svg class="bi icon-sprite" role="img" aria-label="Previous Item">
+                            <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-left"/>
+                        </svg>
+                        Previous
+                    </button>
+                    {% else %}
+                    <a href="{{ '/life.html' | relative_url }}" class="btn btn-outline-dark prev-slide-button">Back to Life at MHS</a>
+                    {% endif %}
+                </div>
+                
+                <div class="text-center px-3">
+                    <h1 class="modal-title fs-5 limelight-regular" id="{{ s.slug }}ModalLabel">{{ s.title }}</h1>
+                </div>
+                
+                <div class="text-end">
+                    {% if s.next %}
+                    <button  data-bs-target="#{{ s.next.slug }}" data-bs-toggle="modal" onclick="window.location.hash='{{ s.next.slug }}'" class="btn btn-outline-dark next-slide-button">
+                        Next
+                        <svg class="bi icon-sprite" role="img" aria-label="Next Item">
+                            <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-right"/>
+                        </svg>
+                    </button>
+                    {% else %}
+                    <a href="{{ '/life.html' | relative_url }}" class="btn btn-outline-dark next-slide-button">Back to Life at MHS</a>
+                    {% endif %}
+                </div>
+                   
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endfor %}

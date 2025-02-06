@@ -25,9 +25,9 @@ tagline: "Its History + Its Archaeology"
 # this description might appear in search result lists, keep around 160 characters max
 description: "Welcome to the online exhibit celebrating local history at Moscow High School since 1892 and into the present. Guided by memories of community members, alumni, and current students, this exhibit tells the story of Moscow High School as told through their own stories, archival records, and archaeological artifacts recovered in both 2019 and 2023 by University of Idaho archaeologists and archaeology students."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest
+keywords: moscow idaho; high school; public archeology 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: evanwill, m. jordan
+author: evanwill, massey jordan
 
 ##########
 # COLLECTION SETTINGS
@@ -40,7 +40,10 @@ metadata: mhs-catalog
 page_gen:
   - data: mhs-catalog
   - data: ipa-mhs-archives
- 
+
+collections: 
+  essays: 
+    sort_by: order
 
 ##########
 # Site/Organization Branding 
