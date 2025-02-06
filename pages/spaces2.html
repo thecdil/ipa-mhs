@@ -1,0 +1,35 @@
+---
+title: "Hallways, Staircases, and Classrooms: Movement and Spaces at MHS"
+layout: page
+permalink: /spaces2.html
+---
+
+{% include feature/jumbotron.html objectid="ipa-mhs-025" heading="Hallways, Staircases, and Classrooms" text="Movement and Spaces at MHS" %}
+
+{% assign slides = site.essays | where: 'feature', 'spaces' %}
+{% for s in slides %}
+<hr> 
+
+<h2 class="my-5 limelight-regular">{{ s.title }}</h2>
+
+<div class="row mb-5">
+    <div class="col-md-7 mb-3">
+        <div class="row">
+            {% assign images = s.images | split: ';' %}
+            {% assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives %}
+            {% for i in images %}
+            <div class="col p-3">
+                {% assign item = items | where: 'objectid', i | first %}
+                <a class="" title="{{ item.title | escape }}" href="{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}">
+                    <img src="{{ item.image_small | relative_url }}" alt="{{ item.image_alt_text | default: item.description | default: item.title | escape }}" class="img-fluid">
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="{% cycle 'col-md-5', 'col-md-5 order-first' %} mb-3 p-3">
+        <p>{{ s.content }}</p>
+    </div>
+</div>
+
+{% endfor %}
