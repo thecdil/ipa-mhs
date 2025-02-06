@@ -16,7 +16,7 @@
 
 {% endcomment %}
 {% capture map_id %}mini-map_{{ include.latitude | slugify }}{% endcapture %}
-{% assign map-item = site.data[site.metadata] | where: "objectid", include.objectid | first %}
+{% assign map-item = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where: "objectid", include.objectid | first %}
 <style>
 #{{ map_id }} { height: {{ include.height | default: '400px' }}; z-index: 98; }
 </style>

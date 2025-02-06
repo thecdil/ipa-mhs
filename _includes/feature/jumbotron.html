@@ -20,7 +20,7 @@
 {% if jumboId contains '/' %}
 {% assign jumboSrc = jumboId | relative_url %}
 {% else %}
-{% assign jumboItem = site.data[site.metadata] | where: "objectid", jumboId | first %}
+{% assign jumboItem = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where: "objectid", jumboId | first %}
 {% capture jumboSrc %}{{ jumboItem.object_location | default: jumboItem.image_small | relative_url }}{% endcapture %}
 {%- endif -%}
 

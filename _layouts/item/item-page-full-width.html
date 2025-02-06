@@ -5,7 +5,7 @@ layout: default
 # item-meta adds rich meta markup in HTML <head> element to the page on production build for better SEO
 item-meta: true
 ---
-{% if page.display_template == "compound_object" %}{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}{% endif %}
+{% if page.display_template == "compound_object" %}{% assign children = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.parentid == page.objectid' %}{% endif %}
 <div class="container-fluid py-3">
 
     {% include item/breadcrumbs.html %}

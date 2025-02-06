@@ -2,9 +2,9 @@
 # create lunr store for search page
 ---
 {% if site.data.theme.search-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{%- assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.objectid' -%}
 {% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{%- assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.objectid and item.parentid == nil' -%}
 {% endif %}
 {%- assign fields = site.data.config-search -%}
 var store = [ 

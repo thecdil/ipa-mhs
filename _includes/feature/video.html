@@ -26,7 +26,7 @@
     {% capture video_caption %}{{ include.caption }}{% endcapture %}
     {% capture raw_src %}{{ include.objectid }}{% endcapture %}
 {%- else -%}
-    {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+    {%- assign item = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where: "objectid", include.objectid | first -%}
     {% capture video_caption %}{% if include.caption %}{{ include.caption }}{% else %}<a href="{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}">{{ item.title }}</a>{% endif %}{% endcapture %}
     {% capture raw_src %}{{ item.object_location }}{% endcapture %}
 {%- endif -%}

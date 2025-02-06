@@ -1,4 +1,4 @@
-{%- assign templates = site.data[site.metadata] | where_exp: 'item','item.parentid == nil ' | map: "display_template" -%}
+{%- assign templates = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.parentid == nil ' | map: "display_template" -%}
 {%- assign types = "image;audio;video;pdf;panorama;record;compound_object;multiple" | split: ";" -%}
 <div class="card mb-3" >
   <div class="card-body">
