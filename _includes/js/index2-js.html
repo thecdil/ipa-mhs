@@ -1,0 +1,51 @@
+{% assign feature-items = site.data.index-carousel %}
+{% assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives %}
+<script>
+
+    /* add item data */
+    // objectid,alt,title,text,btn,link,priority
+    var featureItems = [
+        {% for i in feature-items %}{% assign meta = items | where: 'objectid', i.objectid | first %}
+        { 
+            "src": "{{ meta.object_location }}", 
+            "th": "{{ meta.image_thumb }}", 
+            "sm": "{{ meta.image_small }}", 
+            "alt": {{ i.alt | jsonify }}, 
+            "title": {{ i.title | default: meta.title | jsonify }}, "text": {{ i.text | default: meta.description | jsonify }}, "btn": {{ i.btn | default: 'View Item' | jsonify }}, 
+            "link": "{% if i.link %}{{ i.link | relative_url }}{% else %}{{ '/items/' | relative_url }}{% if meta.parentid %}{{ meta.parentid }}.html#{{ meta.objectid }}{% else %}{{ meta.objectid }}.html{% endif %}{% endif %}" 
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
+    
+    /* shuffle items */
+    featureItems.sort(function() { return 0.5 - Math.random() });
+    /* Sort the array, putting priority items first */
+    featureItems.sort((a, b) => {
+        // If both items have the same value, maintain original order
+        if (a.priority === b.priority) {
+            return 0;
+        }
+        // Prioritize items with priority true
+        return a.priority == "true" ? -1 : 1;
+    });
+    
+    // create feature cards
+    var cards = "";
+    featureItems.forEach((item) => {
+        // build each card and modal
+        var itemCard = `<div class="col">
+                <div class="card h-100 feature-card" style="background-image: url({{ item.image_small }});">
+                    <div class="card-body text-center">
+                        <div class="bg-dark bg-opacity-75 rounded my-5 mx-3 p-3">
+                            <a href="{{ c.link | relative_url }}" class="text-white stretched-link">{{ c.title }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+        cards += itemCard;
+    });
+    // add to page
+    var feature = document.getElementById("feature");
+    feature.innerHTML = cards;
+    
+</script>

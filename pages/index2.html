@@ -16,20 +16,5 @@ custom-foot: js/index2-js.html
 </style>
 
 {% assign cards = site.data.index-carousel %}
-<div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-        <p class="lead">Think about some of the most formative experiences of your life - many of them might have to do with education (in all its forms)! Learning new things is how we grow, and for the town of Moscow, Idaho, Moscow High School (MHS) is a place where a lot of the community learned many of the lessons they carry with them today. Explore this exhibit, built around objects from MHS and stories with Moscow residents, to learn more about community heritage at MHS.</p>
-    </div>
-    {% for c in cards %}
-    {% assign item = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where: 'objectid', c.objectid | first %}
-    <div class="col">
-        <div class="card h-100 feature-card" style="background-image: url({{ item.image_small }});">
-            <div class="card-body text-center">
-                <div class="bg-dark bg-opacity-75 rounded my-5 mx-3 p-3">
-                    <a href="{{ c.link | relative_url }}" class="text-white stretched-link">{{ c.title }}</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
+<div id="feature" class="row row-cols-1 row-cols-md-3 g-4">
 </div>
