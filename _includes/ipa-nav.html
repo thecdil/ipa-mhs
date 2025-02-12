@@ -24,40 +24,17 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <nav id="site-nav">
-        <ul class="nav justify-content-center">
-            {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
-            {% for nav in navItems %}
-            {% if nav.stub %}
-            <li class="nav-item">
-                <a class="nav-link{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
-            </li>
-            {%- else -%}
-            <li class="nav-item dropdown">
-                {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' %}
-                {%- assign childStubs = navChildren | map: 'stub' -%}
-                <a class="nav-link  dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
-                <div class="dropdown-menu">
-                    {% for c in navChildren %}
-                    <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
-                    {% endfor %}
-                </div>
-            </li>
-            {% endif %}
-            {%- endfor -%}
-        </ul>
-    </nav>
-</div>
 {% else %}
 <div class="container">
     <header class="py-3 text-center">
         <h1 class="display-5 mb-0 limelight-regular">MOSCOW HIGH SCHOOL</h1>
         <small class="fs-5 limelight-regular">Its History + Its Archaeology</small>
     </header>
-
+</div>
+{% endif %}
+<div class="container">
     <nav id="site-nav">
-        <ul class="nav justify-content-center">
+        <ul class="nav justify-content-center limelight-regular">
             {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
             {% for nav in navItems %}
             {% if nav.stub %}
@@ -79,6 +56,4 @@
             {%- endfor -%}
         </ul>
     </nav>
-
 </div>
-{% endif %}
