@@ -9,9 +9,23 @@
     }
 }
 #imageCarousel .carousel-item { height: 600px; }
+
+// custom font
 .limelight-regular {
     font-family: "Limelight", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+// nav styles
+.nav-link {
+    color: rgb(25, 25, 25);
+    font-size: 1.1em;
+}
+@media (min-width: 768px) {
+    .nav-link { font-size: 1.4em; }
+}
+.nav-link.active {
+    text-decoration: underline;
 }
   
