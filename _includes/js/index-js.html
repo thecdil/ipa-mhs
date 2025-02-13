@@ -1,11 +1,23 @@
-{% assign carousel-items = site.data.index-carousel %}
+{% assign carousel-items = site.data.index-carousel | where_exp: 'i', 'i.priority != "video"' %}
 {% assign items = site.data.ipa-mhs-archives %}
 <script>
     /* add item data */
     // objectid,alt,title,text,btn,link,priority
     var carouselItems = [
         {% for i in carousel-items %}{% assign meta = items | where: 'objectid', i.objectid | first %}
-        { "src": "{{ meta.object_location }}", "alt": {{ i.alt | jsonify }}, "title": {{ i.title | jsonify }}, "text": {{ i.text | jsonify }}, "btn": {{ i.btn | jsonify }}, "link": "{{ i.link | relative_url }}" }{% unless forloop.last %},{% endunless %}
+        { 
+            "objectid": "{{ i.objectid }}",
+            "object_location": "{{ meta.object_location }}", 
+            "image_thumb": "{{ meta.image_thumb | relative_url }}", 
+            "image_small": "{{ meta.image_small | relative_url }}", 
+            "display_template": "{{ meta.display_template }}",
+            "alt": {{ i.alt | default: meta.description | jsonify }}, 
+            "title": {{ i.title | default: meta.title | jsonify }}, 
+            "text": {{ i.text | default: meta.description | jsonify }}, 
+            "btn": {{ i.btn | default: 'View Item' | jsonify }}, 
+            "link": "{% if i.link %}{{ i.link | relative_url }}{% else %}{{ '/items/' | relative_url }}{% if meta.parentid %}{{ meta.parentid }}.html#{{ meta.objectid }}{% else %}{{ meta.objectid }}.html{% endif %}{% endif %}" 
+        }{% unless forloop.last %},{% endunless %}
+        
         {% endfor %}
     ];
     
@@ -32,7 +44,7 @@
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
         slide = `<div class="carousel-item rounded${ i == 0 ? ' active' : '' }" >
-            <img src="${carouselItems[i].src}" alt="" class="d-block h-100 m-auto">
+            <img src="${carouselItems[i].object_location}" alt="" class="d-block h-100 m-auto">
             <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3 text-start mb-3">
                 <h3 class="text-white py-2">${carouselItems[i].title}</h3>
                 <div class="row">
