@@ -1,13 +1,26 @@
-{% assign carousel-items = site.data.index-carousel | where_exp: 'i', 'i.priority != "video"' %}
-{% assign items = site.data.ipa-mhs-archives %}
+{% assign feature-items = site.data.index-carousel %}
+{% assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives %}
+<!-- feature modal -->
+<div class="modal fade" id="featureModal" tabindex="-1" aria-labelledby="featureModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="featureModalTitle">Feature Item</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div id="featureModalBody" class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
 <script>
     /* add item data */
     // objectid,alt,title,text,btn,link,priority
-    var carouselItems = [
-        {% for i in carousel-items %}{% assign meta = items | where: 'objectid', i.objectid | first %}
+    var featureItems = [
+        {% for i in feature-items %}{% assign meta = items | where: 'objectid', i.objectid | first %}{% capture object_location %}{% if meta.object_location contains 'youtu' %}{% assign youtube_id = meta.object_location | split: '/' | last %}https://www.youtube-nocookie.com/embed/{{ youtube_id }}?rel=0&modestbranding=1{% else %}{{ meta.object_location | relative_url }}{% endif %}{% endcapture %}
         { 
             "objectid": "{{ i.objectid }}",
-            "object_location": "{{ meta.object_location }}", 
+            "object_location": "{{ object_location }}", 
             "image_thumb": "{{ meta.image_thumb | relative_url }}", 
             "image_small": "{{ meta.image_small | relative_url }}", 
             "display_template": "{{ meta.display_template }}",
@@ -22,9 +35,9 @@
     ];
     
     /* shuffle items */
-    carouselItems.sort(function() { return 0.5 - Math.random() });
+    featureItems.sort(function() { return 0.5 - Math.random() });
     /* Sort the array, putting priority items first */
-    carouselItems.sort((a, b) => {
+    featureItems.sort((a, b) => {
         // If both items have the same value, maintain original order
         if (a.priority === b.priority) {
             return 0;
@@ -32,14 +45,15 @@
         // Prioritize items with priority true
         return a.priority == "true" ? -1 : 1;
     });
+    // filter carousel items
+    var carouselItems = featureItems.filter((item) => item.display_template != "video");
 
     /* add items to carousel */
     var carousel = document.getElementById("carouselInner");
     var carouselIndicators = document.getElementById("carouselIndicators");
     var slides = "";
     var indicators = "";
-    var i;
-    for (i=0; i < {{ carousel-items | size }}; i++) { 
+    for (i=0; i < carouselItems.length; i++) { 
         // create indicator 
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
@@ -63,4 +77,43 @@
     carouselIndicators.innerHTML = indicators;
     // add slides to the page
     carousel.innerHTML = slides;
+
+    // feature modal parts
+    var featureModal = document.getElementById('featureModal');
+    var modalTitle = document.getElementById('featureModalTitle');
+    var modalBody = document.getElementById('featureModalBody');
+    // On modal open load item data
+    featureModal.addEventListener('show.bs.modal', event => {
+        
+        // btn that triggered modal
+        var btnTrigger = event.relatedTarget;
+        // get item objectid
+        var itemid = btnTrigger.getAttribute('data-bs-objectid');
+        // get feature info
+        var record_index = featureItems.findIndex(item => item.objectid == itemid);
+        var record = featureItems[record_index];
+        // display title
+        modalTitle.innerHTML = record.title;
+        // display body
+        if (record.display_template == "video") {
+            var cardBody = `<div class="ratio ratio-16x9 mb-3">
+                    <iframe title="video embed ${ record.title }" src="${ record.object_location }" allowfullscreen></iframe>
+                </div>
+                <p>${ record.text }</p>`;
+        } else {
+            var cardBody = `<div class="mb-3 text-center">
+                    <img src="${ record.image_small }" class="img-fluid" alt="${ record.alt }">
+                </div>
+                <p>${ record.text }</p>
+                <p class="text-center"><a href="${ record.link }" class="btn btn-lg btn-info">${ record.btn }</a></p>`;
+        }
+        modalBody.innerHTML = cardBody;
+        
+    });
+    // On modal close 
+    featureModal.addEventListener('hide.bs.modal', event => {
+        // remove content on close
+        modalBody.innerHTML = "";
+    });
+
 </script>
