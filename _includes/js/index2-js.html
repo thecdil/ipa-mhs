@@ -51,7 +51,7 @@
     var cards = "";
     featureItems.forEach((item) => {
         var itemCard = `<div class="col">
-                <div class="card h-100 border-info border-3 feature-card ratio ratio-1x1" style="background-image: url(${ item.image_small });">
+                <div class="card h-100 border-mhs border-3 feature-card ratio ratio-1x1" style="background-image: url(${ item.image_small });">
                     <div class="card-body text-center">
                         <div class="h-100 d-flex flex-column justify-content-center">
                             <div class="bg-dark bg-opacity-75 rounded my-5 mx-3 p-3">
@@ -90,11 +90,15 @@
                 </div>
                 <p>${ record.text }</p>`;
         } else {
-            var cardBody = `<div class="mb-3 text-center">
-                    <img src="${ record.image_small }" class="img-fluid" alt="${ record.alt }">
-                </div>
-                <p>${ record.text }</p>
-                <p class="text-center"><a href="${ record.link }" class="btn btn-lg btn-info">${ record.btn }</a></p>`;
+            var cardBody = `<div class="row">
+                    <div class="col-md-7 mb-3 text-center">
+                        <img src="${ record.image_small }" class="img-fluid img-thumbnail" alt="${ record.alt }">
+                    </div>
+                    <div class="col-md-5">
+                        <p>${ record.text }</p>
+                        <p class="text-center"><a href="${ record.link }" class="btn btn-lg btn-mhs">${ record.btn }</a></p>
+                    </div>
+                </div>`;
         }
         modalBody.innerHTML = cardBody;
         
