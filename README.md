@@ -1,10 +1,15 @@
 # ipa-mhs
 
-Moscow High School Archaeology Project
+Idaho Public Archaeology -- Moscow High School Project 
 
-Moscow High School: Its History + Its Archaeology
+"Moscow High School: Its History + Its Archaeology"
 
-Community Foundations: Educational History and Archaeology at Moscow High School
+Public outreach exhibit developed by Massey Jordan (Archaeology, advisor Kat Eichner) and Evan Williamson (Library), 2024-25.
+
+The objects contain two parts: 
+
+- "mhs-catalog.csv" which are artifacts found at MHS during 2022 and 2023 field work
+- "ipa-mhs-archives.csv" which are archival items curated from local sources about MHS history
 
 ----------
 
