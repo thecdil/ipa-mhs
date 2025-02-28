@@ -6,10 +6,10 @@ permalink: /about.html
 
 ## Submit Your Story
 
-Do you have feedback on the exhibit or stories you would like to share?
+Do you have feedback on the exhibit or Moscow High School stories you would like to share?
 Please get in touch using our contact form:
 
-<div class="text-center"><a href="" class="btn btn-lg btn-success">Contact Form</a></div>
+<div class="text-center"><a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_80rXwofhmkUVXym" class="btn btn-lg btn-success">Contact Form</a></div>
 
 ## About the Exhibit 
 
