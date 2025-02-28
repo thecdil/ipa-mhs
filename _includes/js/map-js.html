@@ -5,13 +5,24 @@
 {%- endcomment -%}
 {%- assign records = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.objectid' -%}
 {%- assign units = site.data.unit-map | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
-
+<!-- feature modal -->
+<div class="modal fade" id="featureModal" tabindex="-1" aria-labelledby="featureModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title" id="featureModalTitle">Feature Item</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div id="featureModalBody" class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/Leaflet.fullscreen.min.js' | relative_url }}"></script>
 
 <script>
-(function(){
     /* add unit map data */
     // objectid,title,latitude,longitude,description,images_objectid,images_caption
     var geodata = { "type": "FeatureCollection", "features": [ 
@@ -31,11 +42,9 @@
     } }{% unless forloop.last %}, {% endunless %}{% endfor %}
     ]};
 
-    /* check for url parameters and set initial view options */ 
-    let url = new URL(window.location);
-    var mapCenter = url.searchParams.get('location') ? url.searchParams.get('location').split(',') : [{{ site.data.theme.latitude | default: 46.727485 }}, {{ site.data.theme.longitude | default: -117.014185 }}];
-    var mapZoom = url.searchParams.get('location') ? 16 : {{ site.data.theme.zoom-level | default: 5 }};
-    var markerFilter = url.searchParams.get('marker') ? url.searchParams.get('marker') : "";
+    /* set initial view options */ 
+    var mapCenter = [46.73172989999999, -116.99725023992538];
+    var mapZoom = 18;
 
     /* init map, set center and zoom */
     var map = L.map('map').setView(mapCenter, mapZoom);
@@ -69,52 +78,52 @@
     /* add fullscreen control */ 
     map.addControl(new L.Control.Fullscreen());
 
-    /* object popup function */
-    function objectPopups(feature, layer) {
-        
-        // set up popup content
-        // id, title, description, image1, image1_link, image1_caption
-        var popupTemplate = `<h2>${ feature.properties.title }</h2>
-            <p>${ feature.properties.description }</p>
+    // create markers
+    function objectMarkers(feature,latlng) {
+        var marker = L.marker(latlng, {alt: feature.properties.title});
+        // add title as tooltip
+        marker.bindTooltip(feature.properties.title).openTooltip();
+        // add click function to display modal
+        marker.on('click', openModal, feature);
+        return marker;
+    }
+
+    /* add objects from geoJson features */
+    var mapFeatures = L.geoJson(geodata, {
+        pointToLayer: objectMarkers
+    }).addTo(map);
+   
+
+    // feature modal parts
+    var featureModal = new bootstrap.Modal(document.getElementById('featureModal'));
+    var modalTitle = document.getElementById('featureModalTitle');
+    var modalBody = document.getElementById('featureModalBody');
+    // display modal function
+    function openModal(event) {
+        // get feature data from event
+        var feature = event.target.feature;
+        modalTitle.innerHTML = feature.properties.title;
+        var popupTemplate = `<p>${ feature.properties.description }</p>
             <div class="my-2"><div class="row">`;
         if (feature.properties.image1) {
-            popupTemplate += `<div class="col-md"><div class="card card-body h-100">
+            popupTemplate += `<div class="col-md-6"><div class="card card-body h-100">
                     <img src="${ feature.properties.image1 }" class="img-fluid" alt="${ feature.properties.image1_alt }">
                     <p>${ feature.properties.image1_caption }</p>
                     <div class="text-center"><a href="${ feature.properties.image1_link }" class="btn btn-sm btn-info">View Item</a></div>
                 </div></div>`;
         }
         if (feature.properties.image2) {
-            popupTemplate += `<div class="col-md"><div class="card card-body h-100">
+            popupTemplate += `<div class="col-md-6"><div class="card card-body h-100">
                     <img src="${ feature.properties.image2 }" class="img-fluid" alt="${ feature.properties.image2_alt }">
                     <p>${ feature.properties.image2_caption }</p>
                     <div class="text-center"><a href="${ feature.properties.image2_link }" class="btn btn-sm btn-info">View Item</a></div>
                 </div></div>`;
         }
         popupTemplate += "</div></div>";
-        layer.bindPopup(popupTemplate, { maxWidth: 500});
+        modalBody.innerHTML = popupTemplate;
+        featureModal.show();
 
     }
-    function objectMarkers(feature,latlng) {
-        var marker = L.marker(latlng, {alt: feature.properties.title});
-        return marker;
-    }
 
-    /* add objects from geoJson features */
-    var mapFeatures = L.geoJson(geodata, {
-        onEachFeature: objectPopups,
-        pointToLayer: objectMarkers
-    }).addTo(map);
-    
-    /* show popup if id in URL query */ 
-    if (markerFilter != "") {
-        mapFeatures.eachLayer(layer => {
-            if (layer.feature.properties.id === markerFilter) {
-                layer.openPopup();
-            }
-        });
-    }
-
-})();
 
 </script>
