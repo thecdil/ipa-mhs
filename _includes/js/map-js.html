@@ -1,31 +1,31 @@
-{% if site.data.theme.map-child-objects == true %}
-{%- assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign items = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{% endif %}
-{%- assign items = items | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
-{%- assign fields = site.data.config-map -%}
+{%- comment -%} 
+
+    Custom map for IPA MHS Units
+
+{%- endcomment -%}
+{%- assign records = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where_exp: 'item','item.objectid' -%}
+{%- assign units = site.data.unit-map | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
+
 <!-- load leaflet dependencies -->
 <script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/leaflet/Leaflet.fullscreen.min.js' | relative_url }}"></script>
-{% if site.data.theme.map-search == true %}<script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | relative_url }}"></script>{% endif %}
-{% if site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>{% endif %}
-{% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>{% endif %}
 
 <script>
 (function(){
-    /* add collection map data */
+    /* add unit map data */
+    // objectid,title,latitude,longitude,description,images_objectid,images_caption
     var geodata = { "type": "FeatureCollection", "features": [ 
-    {% for item in items %}
+    {% for item in units %}
     { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
     { 
-        {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | escape | jsonify }}, {%- endif -%}{%- endfor -%}
-        {% if item.image_thumb %}"img": {{ item.image_thumb | relative_url | jsonify }},{% endif %}
-        {% if item.display_template %}"template": {{ item.display_template | escape | jsonify }}, {%- endif -%}
-        {% if item.format %}"format": {{ item.format | escape | jsonify }}, {%- endif -%}
-        {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
-        {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
+        {% assign images = item.images_objectid | split: ';' %}{% assign captions = item.images_caption | split: ';' %}
+        {% for i in images %}{% assign img = records | where: 'objectid', i | first %}
+        "image{{ forloop.index }}": "{{ img.image_thumb }}",
+        "image{{ forloop.index }}_alt": "{{ img.title }}",
+        "image{{ forloop.index }}_link": "{{ '/items/' | relative_url }}{% if img.parentid %}{{ img.parentid }}.html#{{ img.objectid }}{% else %}{{ img.objectid }}.html{% endif %}",
+        "image{{ forloop.index }}_caption": {{ captions[forloop.index0] | jsonify }},
+        {% endfor %}
+        "description": {{ item.description | escape | jsonify }},
         "title": {{ item.title | escape | jsonify }},
         "id": {{ item.objectid | jsonify }} 
     } }{% unless forloop.last %}, {% endunless %}{% endfor %}
@@ -64,83 +64,39 @@
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
-    {{ site.data.theme.map-base | default: 'Esri_WorldStreetMap' }}.addTo(map);
-
-    {% if site.data.theme.map-search == true %}
-    /* add search, https://github.com/naomap/leaflet-fusesearch */
-    var options = {
-        title: 'Search Map Items',
-        placeholder: 'Search map items...',
-        threshold: {{ site.data.theme.map-search-fuzziness | default: 0.35 }},
-        showResultFct: function(feature, container) {
-            var result = `<strong>${feature.properties.title}</strong><br>`;
-            {% for f in fields %}
-            if(feature.properties[{{ f.field | jsonify }}]) { result += feature.properties[{{ f.field | jsonify }}] + `<br>`; }
-            {% endfor %}
-            container.innerHTML = result;
-        }
-    };
-    var searchCtrl = L.control.fuseSearch(options);
-    searchCtrl.addTo(map);
-    searchCtrl.indexFeatures(geodata.features, {{ fields | where: 'search','true' | map: 'field' | unshift: 'title' | jsonify }});{% endif %}
+    OpenStreetMap_Mapnik.addTo(map);
 
     /* add fullscreen control */ 
     map.addControl(new L.Control.Fullscreen());
 
-    {% if site.data.theme.map-cluster == true %}
-    /* create cluster group */
-    var markers = L.markerClusterGroup({ 
-        maxClusterRadius: {{ site.data.theme.map-cluster-radius | default: 15 }}, 
-        singleMarkerMode: true,
-        iconCreateFunction: function(cluster) {
-            /* custom icon function, tweak default to add more alt text */
-            var childCount = cluster.getChildCount();
-            var csize;
-            if (childCount < 10) {
-                csize = 'small';
-            } else if (childCount < 100) {
-                csize = 'medium';
-            } else {
-                csize = 'large';
-            }
-            var c = ' marker-cluster-' + csize;
-            return new L.DivIcon({ html: '<div><span class="visually-hidden">' + csize +' cluster of </span><span>' + childCount + '</span><span class="visually-hidden"> items</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
-        }
-        {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} 
-    });{% endif %}
-
-    /* get icons function */ 
-    {% include js/get-icon.js %}
-
     /* object popup function */
     function objectPopups(feature, layer) {
-        {% if site.data.theme.map-search == true %}/* bind feature for search */
-        feature.layer = layer;{% endif %}
-        // find item link
-        var itemHref = `{{ '/items/' | relative_url }}${ feature.properties.parent ? feature.properties.parent + ".html#" + feature.properties.id : feature.properties.id + ".html"}`;
-        // find image
-        var imgAlt = feature.properties.alt ? feature.properties.alt : feature.properties.title;
-        var thumbImg;
-        if (feature.properties.img) {
-            thumbImg = '<img class="map-thumb" src="' + feature.properties.img + '" alt="' + imgAlt + '">';
-        } else {
-            thumbImg = getIcon(feature.properties.template,feature.properties.format,"thumb")
-        }
+        
         // set up popup content
-        var popupTemplate = '<h2 class="h4"><a class="text-dark" href="' + itemHref + '">' +
-            feature.properties.title + '</a></h2><div class="text-center"><a href="' + itemHref + 
-            '" >' + thumbImg + '</a></div><p>';
-        {% for f in fields %}{% if f.display_name %}
-        if (feature.properties[{{ f.field | escape | jsonify }}]) {
-            popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
+        // id, title, description, image1, image1_link, image1_caption
+        var popupTemplate = `<h2>${ feature.properties.title }</h2>
+            <p>${ feature.properties.description }</p>
+            <div class="my-2"><div class="row">`;
+        if (feature.properties.image1) {
+            popupTemplate += `<div class="col-md"><div class="card card-body h-100">
+                    <img src="${ feature.properties.image1 }" class="img-fluid" alt="${ feature.properties.image1_alt }">
+                    <p>${ feature.properties.image1_caption }</p>
+                    <div class="text-center"><a href="${ feature.properties.image1_link }" class="btn btn-sm btn-info">View Item</a></div>
+                </div></div>`;
         }
-        {% endif %}{% endfor %}
-        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
-        layer.bindPopup(popupTemplate);
+        if (feature.properties.image2) {
+            popupTemplate += `<div class="col-md"><div class="card card-body h-100">
+                    <img src="${ feature.properties.image2 }" class="img-fluid" alt="${ feature.properties.image2_alt }">
+                    <p>${ feature.properties.image2_caption }</p>
+                    <div class="text-center"><a href="${ feature.properties.image2_link }" class="btn btn-sm btn-info">View Item</a></div>
+                </div></div>`;
+        }
+        popupTemplate += "</div></div>";
+        layer.bindPopup(popupTemplate, { maxWidth: 500});
+
     }
     function objectMarkers(feature,latlng) {
         var marker = L.marker(latlng, {alt: feature.properties.title});
-        {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
         return marker;
     }
 
@@ -148,39 +104,15 @@
     var mapFeatures = L.geoJson(geodata, {
         onEachFeature: objectPopups,
         pointToLayer: objectMarkers
-    }){% if site.data.theme.map-cluster != true %}.addTo(map);{% else %};
-    map.addLayer(markers);{% endif %}
-    
-    {% if site.data.theme.map-cluster == true and site.data.theme.map-search == true %}
-    /* uncluster when search is clicked */
-    document.querySelector('a.button').addEventListener("click", function() {
-        markers.disableClustering();
-    });
-    /* recluster when search is closed */
-    document.querySelector('a.close').addEventListener("click", function() {
-        markers.enableClustering();
-        document.querySelector('input.search-input').value = "";
-    });{% endif %}
+    }).addTo(map);
     
     /* show popup if id in URL query */ 
     if (markerFilter != "") {
-        {% if site.data.theme.map-cluster == true %}
-        markers.eachLayer(layer => {
-            if (layer.feature.properties.id === markerFilter) {
-                /* uncluster clusters, then show */ 
-                if (markers.getVisibleParent(layer)["_childCount"]) {
-                    markers.getVisibleParent(layer).spiderfy();
-                } 
-                layer.openPopup();
-            }
-        });
-        {% else %}
         mapFeatures.eachLayer(layer => {
             if (layer.feature.properties.id === markerFilter) {
                 layer.openPopup();
             }
         });
-        {% endif %}
     }
 
 })();
