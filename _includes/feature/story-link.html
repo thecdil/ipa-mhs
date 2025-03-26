@@ -22,25 +22,19 @@
 {% assign jumboItem = site.data.mhs-catalog | concat: site.data.ipa-mhs-archives | where: "objectid", jumboId | first %}
 {% capture jumboSrc %}{{ jumboItem.object_location | default: jumboItem.image_small | relative_url }}{% endcapture %}
 {%- endif -%}
-
-<style>
-
-#{{ jumbo_div_id }} {
-    padding: 4rem 2rem;
-    border-radius: 0.3rem;
-    background-image: url({{ jumboSrc }});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: {{ include.position | default: 'center' }};
-}
-</style>
-<div class="my-4">
-<a href="{{ include.link | relative_url }}"><div class="jumbotron feature px-0 border" id="{{ jumbo_div_id }}">
+<div class="jumbotron story-jumbotron feature px-0 border border-mhs my-5" id="{{ jumbo_div_id }}" style="background-image: url({{ jumboSrc }});">
     <div class="jumbo-title-box">
         <div class="p-2 text-center text-white bg-dark bg-opacity-75">
             <h2 class="display-5 limelight-regular">{{ include.heading }}</h2>
             <p class="jumbo-tagline">{{ include.text }}</p>
+            <p>
+                {% if include.link1 %}
+                <a href="{{ include.link1 | relative_url }}" class="btn btn-mhs btn-lg mx-2">{{ include.link1_text | default: 'View Exhibit' }}</a>
+                {% endif %}
+                {% if include.link2 %}
+                <a href="{{ include.link2 | relative_url }}" class="btn btn-mhs btn-lg mx-2">{{ include.link1_text | default: 'Part Two' }}</a>
+                {% endif %}
+            </p>
         </div>
     </div>
-</div></a>
 </div>
