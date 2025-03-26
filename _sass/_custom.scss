@@ -28,7 +28,9 @@
 .nav-link.active {
     text-decoration: underline;
 }
-
+.nav-link:focus, .nav-link:hover {
+    color: #C70000;
+}
 
 // custom color
 .border-mhs {
