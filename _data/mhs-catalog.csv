@@ -17,14 +17,14 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 13,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,SYNTHETIC,RUBBER VULCANIZED,PENCIL,PENCIL,PENCIL MECHANICAL,,,1e; 1f,YES,mhs-0013,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0013.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0013.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0013.1e,mhs-0013,image,mhs-0013.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0013.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0013.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0013.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0013.1f,mhs-0013,image,mhs-0013.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0013.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0013.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0013.1f_th.jpg
-14,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,SYNTHETIC,PAINT/INK MISC,PEN,PEN,PEN BALLPOINT,,,1e; 1f,YES,mhs-0014,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0014.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0014.1e_th.jpg
+14,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,SYNTHETIC,PAINT/INK MISC,PEN,OFFICE DEPOT PEN,PEN BALLPOINT,,,1e; 1f,YES,mhs-0014,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0014.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0014.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0014.1e,mhs-0014,image,mhs-0014.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0014.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0014.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0014.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0014.1f,mhs-0014,image,mhs-0014.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0014.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0014.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0014.1f_th.jpg
 15,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PENCIL,PENCIL,PENCIL MECHANICAL,,,E,,,,,,,,
 16,AREA 8,2,SURFACE,SYNTHETIC,RUBBER VULCANIZED,,,GRIP PENCIL/PEN,GRIP PENCIL/PEN,PEN/PENCIL GRIP,,,1e,YES,mhs-0016,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0016.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0016.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0016.1e,mhs-0016,image,mhs-0016.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0016.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0016.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0016.1e_th.jpg
 17,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CAP,CAP,CAP ERASER,,,B,,,,,,,,
-18,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,PEN BALLPOINT,,,1e; 1f,YES,mhs-0018,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0018.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0018.1e_th.jpg
+18,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,BIC PEN,PEN BALLPOINT,,,1e; 1f,YES,mhs-0018,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0018.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0018.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0018.1e,mhs-0018,image,mhs-0018.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0018.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0018.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0018.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0018.1f,mhs-0018,image,mhs-0018.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0018.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0018.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0018.1f_th.jpg
 19,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CLIP,CLIP,CLIP PEN/PENCIL,,,E,,,,,,,,
@@ -94,7 +94,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 76,QUAD 12,3,SURFACE,SYNTHETIC,CAULK,SYNTHETIC,PLASTIC MISC,CAULK,CAULK,CAULK,,,A,,,,,,,,
 77,QUAD 12,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,LINE,LINE,LINE TRIMMER,,,A,,,,,,,,
 78,UNIT 22,3,4,SYNTHETIC,PLASTIC MISC,,,CAP,CAP,CAP,,,A,,,,,,,,
-79,QUAD 8,3,SURFACE,SYNTHETIC,PLASTIC MISC,METAL,,TOOL,TOOL,SCREWDRIVER,,,1e,YES,mhs-0079,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0079.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0079.1e_th.jpg
+79,QUAD 8,3,SURFACE,SYNTHETIC,PLASTIC MISC,METAL,,TOOL,SCREWDRIVER HANDLE,SCREWDRIVER,,,1e,YES,mhs-0079,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0079.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0079.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-0079.1e,mhs-0079,image,mhs-0079.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0079.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0079.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0079.1e_th.jpg
 80,UNIT 22,3,11,METAL,IRON,,,NAIL,NAIL,NAIL CUT COMMON,,,,,,,,,,,
 81,UNIT 22,3,11,METAL,IRON,,,TACK,TACK,TACK CUT,,,,,,,,,,,
@@ -124,7 +124,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 105,UNIT 22,3,11,CERAMIC,EARTHENWARE COARSE,,,TABLEWARE,TABLEWARE,TABLEWARE,,,,,,,,,,,
 106,AREA 7,2,SURFACE,ORGANIC,FABRIC SYNTHETIC,SYNTHETIC,RUBBER VULCANIZED,HAIR ACCESSORY,HAIR ACCESSORY,HAIR BAND,,,A,,,,,,,,
 107,AREA 7,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER CANDY,,,A,,,,,,,,
-108,AREA 7,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER,,,1a; 1c; 1f,YES,mhs-0108,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0108.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0108.1a_th.jpg
+108,AREA 7,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,GOLDFISH BAG,WRAPPER,,,1a; 1c; 1f,YES,mhs-0108,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0108.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0108.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0108.1a,mhs-0108,image,mhs-0108.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0108.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0108.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0108.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0108.1c,mhs-0108,image,mhs-0108.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0108.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0108.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0108.1c_th.jpg
 ,,,,,,,,,,,,,,,mhs-0108.1f,mhs-0108,image,mhs-0108.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0108.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0108.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0108.1f_th.jpg
@@ -152,7 +152,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 124,QUAD 8,3,SURFACE,SYNTHETIC,RUBBER VULCANIZED,,,TOOL,TOOL,TOOL HANDLE COVER,,,E,,,,,,,,
 125,QUAD 8,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,STRAW DRINKING,STRAW DRINKING,STRAW DRINKING,,,G,,,,,,,,
 126,UNIT 22,3,6,METAL,IRON,,,NAIL,NAIL,NAIL WIRE COMMON,,,,,,,,,,,
-127,QUAD 6,3,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,1a; 1b,YES,mhs-0127,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0127.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0127.1a_th.jpg
+127,QUAD 6,3,SURFACE,GLASS,GLASS,,,BOTTLE,PEPSI BOTTLE,BOTTLE SODA,,,1a; 1b,YES,mhs-0127,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0127.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0127.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0127.1a,mhs-0127,image,mhs-0127.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0127.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0127.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0127.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0127.1b,mhs-0127,image,mhs-0127.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0127.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0127.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0127.1b_th.jpg
 128,UNIT 22,3,6,METAL,IRON,,,NAIL,NAIL,NAIL WIRE COMMON,,,,,,,,,,,
@@ -182,7 +182,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 152,QUAD 11,3,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,F,,,,,,,,
 153,QUAD 11,3,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,F,,,,,,,,
 154,QUAD 11,3,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,E,,,,,,,,
-155,QUAD 11,3,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,1a,YES,mhs-0155,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0155.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0155.1a_th.jpg
+155,QUAD 11,3,SURFACE,GLASS,GLASS,,,BOTTLE,PEPSI BOTTLE,BOTTLE SODA,,,1a,YES,mhs-0155,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0155.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0155.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0155.1a,mhs-0155,image,mhs-0155.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0155.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0155.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0155.1a_th.jpg
 156,QUAD 11,3,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,E,,,,,,,,
 157,QUAD 11,3,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,F,,,,,,,,
@@ -387,7 +387,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 355,UNIT 22,3,16,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE BEVERAGE MISC,,,A,,,,,,,,
 356,UNIT 20,3,7,CERAMIC,EARTHENWARE COARSE,,,COOKWARE,COOKWARE,COOKWARE,,,A,,,,,,,,
 357,QUAD 6,3,SURFACE,CERAMIC,TERRACOTTA,,,BUILDING MATERIAL,BUILDING MATERIAL,BUILDING MATERIAL MISC.,,,A,,,,,,,,
-358,QUAD 1,3,SURFACE,CERAMIC,PORCELAIN,,,HOLLOWARE,HOLLOWARE,HOLLOWARE,,,1a; 1b,YES,mhs-0358,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0358.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0358.1a_th.jpg
+358,QUAD 1,3,SURFACE,CERAMIC,PORCELAIN,,,HOLLOWARE,BOWL,HOLLOWARE,,,1a; 1b,YES,mhs-0358,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0358.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0358.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0358.1a,mhs-0358,image,mhs-0358.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0358.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0358.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0358.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0358.1b,mhs-0358,image,mhs-0358.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0358.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0358.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0358.1b_th.jpg
 359,QUAD 12,3,SURFACE,CERAMIC,EARTHENWARE COARSE,,,HOLLOWARE,HOLLOWARE,HOLLOWARE,,,1g,YES,mhs-0359,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0359.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0359.1g_th.jpg
@@ -836,7 +836,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 770,UNIT 22,3,11,SYNTHETIC,GRAPHITE,,,LEAD,LEAD,PENCIL GRAPHITE/LEAD,,,A,,,,,,,,
 771,UNIT 22,3,11,SYNTHETIC,GRAPHITE,,,LEAD,LEAD,INSULATOR,,,A,,,,,,,,
 772,UNIT 22,3,11,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,G,,,,,,,,
-773,QUAD 10,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,TOY,TOY,TOY ACTION FIGURE,,,1c; 1d,YES,mhs-0773,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0773.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0773.1c_th.jpg
+773,QUAD 10,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,TOY,HE-MAN ACTION FIGURE,TOY ACTION FIGURE,,,1c; 1d,YES,mhs-0773,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0773.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0773.1c_th.jpg
 ,,,,,,,,,,,,,,,mhs-0773.1c,mhs-0773,image,mhs-0773.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0773.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0773.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0773.1c_th.jpg
 ,,,,,,,,,,,,,,,mhs-0773.1d,mhs-0773,image,mhs-0773.1d.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0773.1d.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0773.1d_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0773.1d_th.jpg
 774,QUAD 10,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,CAP/LID,CAP/LID,CAP BOTTLE,,,A,,,,,,,,
@@ -1010,7 +1010,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 930,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,PEN FOUNTAIN,,,A,,,,,,,,
 931,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,PEN BALLPOINT,,,C,,,,,,,,
 932,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PENCIL,PENCIL,PENCIL MECHANICAL,,,A,,,,,,,,
-933,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,PEN BALLPOINT,,,1a; 1b,YES,mhs-0933,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0933.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0933.1a_th.jpg
+933,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,BIC PEN,PEN BALLPOINT,,,1a; 1b,YES,mhs-0933,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0933.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0933.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0933.1a,mhs-0933,image,mhs-0933.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0933.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0933.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0933.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0933.1b,mhs-0933,image,mhs-0933.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0933.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0933.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0933.1b_th.jpg
 934,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PENCIL,PENCIL,PENCIL MECHANICAL,,,1a; 1b,YES,mhs-0934,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0934.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0934.1a_th.jpg
@@ -1019,10 +1019,10 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 935,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PENCIL,PENCIL,PENCIL MECHANICAL,,,1a; 1b,YES,mhs-0935,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0935.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0935.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0935.1a,mhs-0935,image,mhs-0935.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0935.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0935.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0935.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0935.1b,mhs-0935,image,mhs-0935.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0935.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0935.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0935.1b_th.jpg
-936,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,CAP PEN,,,1a; 1b,YES,mhs-0936,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0936.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0936.1a_th.jpg
+936,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,SHARPIE PEN,CAP PEN,,,1a; 1b,YES,mhs-0936,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0936.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0936.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0936.1a,mhs-0936,image,mhs-0936.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0936.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0936.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0936.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0936.1b,mhs-0936,image,mhs-0936.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0936.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0936.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0936.1b_th.jpg
-937,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,METAL UNIDENTIFIED,PEN,PEN,PEN BALLPOINT,,,1a; 1b,YES,mhs-0937,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0937.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0937.1a_th.jpg
+937,AREA 9,3,SURFACE,SYNTHETIC,PLASTIC MISC,,METAL UNIDENTIFIED,PEN,PAPERMATE PEN,PEN BALLPOINT,,,1a; 1b,YES,mhs-0937,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0937.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0937.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0937.1a,mhs-0937,image,mhs-0937.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0937.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0937.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0937.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0937.1b,mhs-0937,image,mhs-0937.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0937.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0937.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0937.1b_th.jpg
 938,UNIT 10,2,2,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER,,,,,,,,,,,
@@ -1086,7 +1086,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 996,AREA 9,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER,,,B,,,,,,,,
 997,UNIT 10,2,2,SYNTHETIC,PLASTIC MISC,,,CANDY WRAPPER,CANDY WRAPPER,CANDY WRAPPER,,,A,,,,,,,,
 998,QUAD 11,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,G,,,,,,,,
-999,QUAD 11,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,CLIP,CLIP,CLIP,,,1a; 1g,YES,mhs-0999,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0999.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0999.1a_th.jpg
+999,QUAD 11,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,CLIP,BREAD CLIP,CLIP,,,1a; 1g,YES,mhs-0999,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0999.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0999.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0999.1a,mhs-0999,image,mhs-0999.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0999.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0999.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0999.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-0999.1g,mhs-0999,image,mhs-0999.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-0999.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-0999.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-0999.1g_th.jpg
 1000,QUAD 11,3,SURFACE,SYNTHETIC,PLASTIC MISC,,,LINE,LINE,LINE TRIMMER,,,E,,,,,,,,
@@ -1121,7 +1121,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1025,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,A,,,,,,,,
 1026,AREA 8,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,A,,,,,,,,
 1027,AREA 8,2,SURFACE,ORGANIC,PAPER,,,PAPER,PAPER,CARD NOTE,,,A,,,,,,,,
-1028,AREA 8,2,SURFACE,ORGANIC,PAPER,,,PAPER,PAPER,CARD NOTE,,,1a; 1b,YES,mhs-1028,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1028.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1028.1a_th.jpg
+1028,AREA 8,2,SURFACE,ORGANIC,PAPER,,,PAPER,STICKY NOTE,CARD NOTE,,,1a; 1b,YES,mhs-1028,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1028.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1028.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1028.1a,mhs-1028,image,mhs-1028.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1028.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1028.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1028.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1028.1b,mhs-1028,image,mhs-1028.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1028.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1028.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1028.1b_th.jpg
 1029,AREA 8,2,SURFACE,ORGANIC,PAPER,,,PAPER,PAPER,PAPER,,,A,,,,,,,,
@@ -1138,7 +1138,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1036,AREA 6,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CAUTION TAPE,CAUTION TAPE,CAUTION TAPE,,,G,,,,,,,,
 1037,AREA 6,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,A,,,,,,,,
 1038,AREA 6,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,A,,,,,,,,
-1039,AREA 6,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CANDY WRAPPER,CANDY WRAPPER,CANDY WRAPPER,,,1a; 1b,YES,mhs-1039,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1039..1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1039..1b_th.jpg
+1039,AREA 6,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CANDY WRAPPER,WARHEADS WRAPPER,CANDY WRAPPER,,,1a; 1b,YES,mhs-1039,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1039..1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1039..1b_th.jpg
 ,,,,,,,,,,,,,,,mhs-1039.1b,mhs-1039,image,mhs-1039..1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1039..1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1039..1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1039..1b_th.jpg
 ,,,,,,,,,,,,,,,mhs-1039.1a,mhs-1039,image,mhs-1039.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1039.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1039.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1039.1a_th.jpg
 1040,AREA 6,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER,,,G,,,,,,,,
@@ -1202,7 +1202,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1092,UNIT 22,3,7,METAL,COPPER,,,WIRE,WIRE,,,,A,,,,,,,,
 1093,UNIT 22,3,7,METAL,WHITE METAL MISC,,,UNIDENTIFIED,UNIDENTIFIED,,,,G,,,,,,,,
 1094,UNIT 22,3,7,METAL,METAL UNIDENTIFIED,,,UNIDENTIFIED,UNIDENTIFIED,,,,E,,,,,,,,
-1095,UNIT 22,3,7,METAL,IRON,,,CAP,CAP,CAP BOTTLE,,,1a; 1b; 1h,YES,mhs-1095,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1095.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1095.1a_th.jpg
+1095,UNIT 22,3,7,METAL,IRON,,,CAP,COCA-COLA BOTTLE CAP,CAP BOTTLE,,,1a; 1b; 1h,YES,mhs-1095,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1095.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1095.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1095.1a,mhs-1095,image,mhs-1095.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1095.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1095.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1095.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1095.1b,mhs-1095,image,mhs-1095.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1095.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1095.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1095.1b_th.jpg
 ,,,,,,,,,,,,,,,mhs-1095.1h,mhs-1095,image,mhs-1095.1h.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1095.1h.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1095.1h_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1095.1h_th.jpg
@@ -1303,7 +1303,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1181,UNIT 20,3,6,METAL,IRON,,,CAST METAL MISC,CAST METAL MISC,,,,E,,,,,,,,
 1182,UNIT 20,3,6,METAL,IRON,,,METAL UNIDENTIFIED,METAL UNIDENTIFIED,,,,E,,,,,,,,
 1183,UNIT 20,3,6,METAL,IRON,,,NAIL,NAIL,NAIL WIRE,,,E,,,,,,,,
-1184,QUAD 4,3,SURFACE,METAL,ALUMINUM,,,CAP/LID,CAP/LID,CAP BOTTLE,,,1a; 1b,YES,mhs-1184,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1184.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1184.1a_th.jpg
+1184,QUAD 4,3,SURFACE,METAL,ALUMINUM,,,CAP/LID,CRUSH BOTTLE CAP,CAP BOTTLE,,,1a; 1b,YES,mhs-1184,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1184.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1184.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1184.1a,mhs-1184,image,mhs-1184.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1184.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1184.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1184.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1184.1b,mhs-1184,image,mhs-1184.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1184.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1184.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1184.1b_th.jpg
 1185,UNIT 22,3,NSTP,METAL,IRON,,,NAIL,NAIL,NAIL WIRE COMMON,,,A,,,,,,,,
@@ -1340,7 +1340,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-1209.1a,mhs-1209,image,mhs-1209.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1209.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1209.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1209.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1209.1b,mhs-1209,image,mhs-1209.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1209.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1209.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1209.1b_th.jpg
 1210,QUAD 5,3,SURFACE,SYNTHETIC,RUBBERIZED CLOTH,SYNTHETIC,FIBER SYNTHETIC,GLOVE,GLOVE,GLOVE WORK,,,A,,,,,,,,
-1211,AREA 2,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CANDY WRAPPER,CANDY WRAPPER,CANDY WRAPPER,,,1a; 1b,YES,mhs-1211,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1211.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1211.1a_th.jpg
+1211,AREA 2,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CANDY WRAPPER,DUM-DUMS LOLLIPOP WRAPPER,CANDY WRAPPER,,,1a; 1b,YES,mhs-1211,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1211.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1211.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1211.1a,mhs-1211,image,mhs-1211.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1211.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1211.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1211.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1211.1b,mhs-1211,image,mhs-1211.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1211.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1211.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1211.1b_th.jpg
 1212,AREA 2,2,SURFACE,SYNTHETIC,RUBBER HARD,,,RUBBER UNIDENTIFIED,RUBBER UNIDENTIFIED,RUBBER UNIDENTIFIED,,,A,,,,,,,,
@@ -1382,7 +1382,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-1238.1b,mhs-1238,image,mhs-1238.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1238.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1238.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1238.1b_th.jpg
 1239,AREA 2,2,SURFACE,SYNTHETIC,RUBBER HARD,,,RUBBER BAND,RUBBER BAND,BAND RUBBER,,,A,,,,,,,,
 1240,AREA 2,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER,,,A,,,,,,,,
-1241,AREA 2,2,SURFACE,ORGANIC,PAPER,,,STICKER,STICKER,STICKER,,,1a; 1b,YES,mhs-1241,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1241.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1241.1a_th.jpg
+1241,AREA 2,2,SURFACE,ORGANIC,PAPER,,,STICKER,PRODUCE STICKER,STICKER,,,1a; 1b,YES,mhs-1241,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1241.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1241.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1241.1a,mhs-1241,image,mhs-1241.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1241.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1241.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1241.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1241.1b,mhs-1241,image,mhs-1241.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1241.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1241.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1241.1b_th.jpg
 1242,AREA 2,2,SURFACE,ORGANIC,PAPER,,,WRAPPER,WRAPPER,WRAPPER,,,,,,,,,,,
@@ -1390,7 +1390,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1244,AREA 2,2,SURFACE,ORGANIC,WOOD,METAL,METAL UNIDENTIFIED,PENCIL,PENCIL,PENCIL WOOD,,,1a; 1b,YES,mhs-1244,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1244.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1244.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1244.1a,mhs-1244,image,mhs-1244.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1244.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1244.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1244.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1244.1b,mhs-1244,image,mhs-1244.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1244.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1244.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1244.1b_th.jpg
-1245,AREA 2,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CANDY WRAPPER,CANDY WRAPPER,CANDY WRAPPER,,,1a; 1b,YES,mhs-1245,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1245.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1245.1a_th.jpg
+1245,AREA 2,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CANDY WRAPPER,HI-CHEW WRAPPER,CANDY WRAPPER,,,1a; 1b,YES,mhs-1245,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1245.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1245.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1245.1a,mhs-1245,image,mhs-1245.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1245.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1245.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1245.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1245.1b,mhs-1245,image,mhs-1245.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1245.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1245.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1245.1b_th.jpg
 1246,QUAD 4,3,SURFACE,METAL,IRON,,,POCKET KNIFE,POCKET KNIFE,,,,1e; 1f,YES,mhs-1246,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1246.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1246.1e_th.jpg
@@ -1415,7 +1415,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1261,UNIT 12,2,5,METAL,IRON,,,NAIL,NAIL,NAIL CUT,,,G,,,,,,,,
 1262,UNIT 12,2,5,METAL,IRON,,,METAL UNIDENTIFIED,METAL UNIDENTIFIED,,,,E,,,,,,,,
 1263,AREA 8,2,SURFACE,METAL,STEEL,,,PAPER CLIP,PAPER CLIP,,,,E,,,,,,,,
-1264,AREA 8,2,SURFACE,METAL,ALUMINUM,,,CAN,CAN,CAN SODA,Dec 23 19,,1e,YES,mhs-1264,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1264.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1264.1e_th.jpg
+1264,AREA 8,2,SURFACE,METAL,ALUMINUM,,,CAN,MOUNTAIN DEW CAN,CAN SODA,Dec 23 19,,1e,YES,mhs-1264,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1264.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1264.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-1264.1e,mhs-1264,image,mhs-1264.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1264.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1264.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1264.1e_th.jpg
 1265,AREA 8,2,SURFACE,METAL,NICKLE,METAL,COPPER,COIN,COIN,,2013,,1e; 1f,YES,mhs-1265,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1265.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1265.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-1265.1e,mhs-1265,image,mhs-1265.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1265.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1265.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1265.1e_th.jpg
@@ -1842,7 +1842,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1662,AREA 3,2,SURFACE,SYNTHETIC,RUBBER HARD,,,EAR BUD,EAR BUD,EAR BUD,,,1a; 1b,YES,mhs-1662,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1662.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1662.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1662.1a,mhs-1662,image,mhs-1662.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1662.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1662.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1662.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1662.1b,mhs-1662,image,mhs-1662.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1662.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1662.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1662.1b_th.jpg
-1663,AREA 3,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER TAMPON,,,1a; 1b,YES,mhs-1663,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1663.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1663.1a_th.jpg
+1663,AREA 3,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,WRAPPER,TAMPON WRAPPER,WRAPPER TAMPON,,,1a; 1b,YES,mhs-1663,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1663.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1663.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1663.1a,mhs-1663,image,mhs-1663.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1663.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1663.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1663.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1663.1b,mhs-1663,image,mhs-1663.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1663.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1663.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1663.1b_th.jpg
 1664,AREA 3,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,CAP PEN,,,A,,,,,,,,
@@ -1928,7 +1928,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-1730.1b,mhs-1730,image,mhs-1730.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1730.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1730.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1730.1b_th.jpg
 1731,AREA 5,2,SURFACE,SYNTHETIC,RUBBER HARD,METAL,METAL UNIDENTIFIED,WIRE,WIRE,WIRE,,,A,,,,,,,,
 1732,AREA 5,2,SURFACE,SYNTHETIC,FIBER MISC,,,FIBER,FIBER,FIBER,,,A,,,,,,,,
-1733,AREA 5,2,SURFACE,ORGANIC,PAPER,,,CANDY WRAPPER,CANDY WRAPPER,STICK,,,1a; 1b,YES,mhs-1733,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1733.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1733.1a_th.jpg
+1733,AREA 5,2,SURFACE,ORGANIC,PAPER,,,CANDY WRAPPER,LOLLIPOP STICK,STICK,,,1a; 1b,YES,mhs-1733,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1733.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1733.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1733.1a,mhs-1733,image,mhs-1733.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1733.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1733.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1733.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-1733.1b,mhs-1733,image,mhs-1733.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1733.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1733.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1733.1b_th.jpg
 1734,AREA 5,2,SURFACE,SYNTHETIC,PLASTIC MISC,,,CAP/LID,CAP/LID,CAP/LID,,,A,,,,,,,,
@@ -2173,7 +2173,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 1943,UNIT 22,3,11,GLASS,,,,,,,,,E,,,,,,,,
 1944,UNIT 22,3,11,GLASS,,,,,,,,,F,,,,,,,,
 1945,UNIT 22,3,11,GLASS,,,,,,,,,E,,,,,,,,
-1946,UNIT 22,3,11,GLASS,,,,,,,,,1e; 1f,YES,mhs-1946,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1946.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1946.1e_th.jpg
+1946,UNIT 22,3,11,GLASS,,,,,GLASS,,,,1e; 1f,YES,mhs-1946,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1946.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1946.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-1946.1e,mhs-1946,image,mhs-1946.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1946.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1946.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1946.1e_th.jpg
 ,,,,,,,,,,,,,,,mhs-1946.1f,mhs-1946,image,mhs-1946.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-1946.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-1946.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-1946.1f_th.jpg
 1947,UNIT 22,3,11,GLASS,,,,,,,,,E,,,,,,,,
@@ -2266,7 +2266,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-2026.1g,mhs-2026,image,mhs-2026.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-2026.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2026.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2026.1g_th.jpg
 2027,AREA 9,2,SURFACE,GLASS,GLASS,,,WINDOW GLASS,WINDOW GLASS,WINDOW GLASS,,,G,,,,,,,,
 2028,AREA 4,2,SURFACE,GLASS,GLASS,,,CONTAINER GLASS,CONTAINER GLASS,CONTAINER GLASS MISC,,,A,,,,,,,,
-2029,AREA 4,2,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE BEER,,,1a; 1g,YES,mhs-2029,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2029.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2029.1a_th.jpg
+2029,AREA 4,2,SURFACE,GLASS,GLASS,,,BOTTLE,COORS BOTTLE,BOTTLE BEER,,,1a; 1g,YES,mhs-2029,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2029.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2029.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-2029.1a,mhs-2029,image,mhs-2029.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-2029.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2029.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2029.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-2029.1g,mhs-2029,image,mhs-2029.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-2029.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2029.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2029.1g_th.jpg
 2030,AREA 4,2,SURFACE,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE BEVERAGE MISC,,,G,,,,,,,,
@@ -2793,7 +2793,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 2528,AREA 5,2,SURFACE,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,,,,E,,,,,,,,
 2529,UNIT 1,1,1,GLASS,GLASS,,,,,,,,G,,,,,,,,
 2530,UNIT 1,1,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,,,,A,,,,,,,,
-2531,UNIT 1,1,1,GLASS,GLASS,,,,,,,,1a; 1g,YES,mhs-2531,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2531.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2531.1a_th.jpg
+2531,UNIT 1,1,1,GLASS,GLASS,,,,GLASS,,,,1a; 1g,YES,mhs-2531,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2531.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2531.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-2531.1a,mhs-2531,image,mhs-2531.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-2531.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2531.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2531.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-2531.1g,mhs-2531,image,mhs-2531.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-2531.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2531.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2531.1g_th.jpg
 2532,UNIT 1,1,1,GLASS,GLASS,,,FLAT GLASS,FLAT GLASS,,,,A,,,,,,,,
@@ -2924,7 +2924,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 2655,UNIT 22,3,6,GLASS,GLASS,,,CONTAINER GLASS,CONTAINER GLASS,CONTAINER GLASS MISC,,,,,,,,,,,
 2656,UNIT 22,3,6,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,G,,,,,,,,
 2657,UNIT 22,3,6,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,A,,,,,,,,
-2658,UNIT 22,3,6,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,1951,1957,1g,YES,mhs-2658,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2658.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2658.1g_th.jpg
+2658,UNIT 22,3,6,GLASS,GLASS,,,BOTTLE,PEPSI BOTTLE,BOTTLE SODA,1951,1957,1g,YES,mhs-2658,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2658.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2658.1g_th.jpg
 ,,,,,,,,,,,,,,,mhs-2658.1g,mhs-2658,image,mhs-2658.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs-2658.1g.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs-2658.1g_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs-2658.1g_th.jpg
 2659,UNIT 22,3,6,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,G,,,,,,,,
 2660,UNIT 22,3,6,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE SODA,,,G,,,,,,,,
@@ -3271,7 +3271,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-23-00164.1b,mhs-23-00164,image,mhs2023_00164.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs2023_00164.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs2023_00164.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs2023_00164.1b_th.jpg
 23-00165,STP 10,3,2,METAL,BRASS,,,PEN,PEN,CLIP PEN/PENCIL,,,1a,YES,mhs-23-00165,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-00165.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-00165.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-00165.1a,mhs-23-00165,image,mhs_23-00165.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-00165.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-00165.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-00165.1a_th.jpg
-23-00166,STP 10,3,2,METAL,IRON,,,KEY,KEY,PULL TAB,,,1b; 1d,YES,mhs-23-00166,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs2023_00166.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs2023_00166.1b_th.jpg
+23-00166,STP 10,3,2,METAL,IRON,,,KEY,KEY WIND FOOD CAN OPENER,PULL TAB,,,1b; 1d,YES,mhs-23-00166,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs2023_00166.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs2023_00166.1b_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-00166.1b,mhs-23-00166,image,mhs2023_00166.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs2023_00166.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs2023_00166.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs2023_00166.1b_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-00166.1d,mhs-23-00166,image,mhs2023_00166.1d.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs2023_00166.1d.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs2023_00166.1d_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs2023_00166.1d_th.jpg
 23-00167,STP 10,3,2,METAL,LEAD,,,AMMUNITION,AMMUNITION,BULLET,1782,,1b,YES,mhs-23-00167,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs2023_00167.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs2023_00167.1b_th.jpg
@@ -4889,7 +4889,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-23-01751.1a,mhs-23-01751,image,mhs23-01751.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01751.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01751.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01751.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-01751.1b,mhs-23-01751,image,mhs23-01751.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01751.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01751.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01751.1b_th.jpg
 23-01752,TU21,3,2,METAL,BRASS,,,CLOTHING FASTENER,CLOTHING FASTENER,CLOTHING FASTENER,,,,YES,mhs-23-01752,,artifact,,,,
-23-01753,TU24,3,1,SYNTHETIC,PLASTIC MISC,,,TOY,TOY,TOY ACTION FIGURE,,,1a;1b,YES,mhs-23-01753,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01753.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01753.1a_th.jpg
+23-01753,TU24,3,1,SYNTHETIC,PLASTIC MISC,,,TOY,TOY SOLDIER,TOY ACTION FIGURE,,,1a;1b,YES,mhs-23-01753,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01753.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01753.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-01753.1a,mhs-23-01753,image,mhs23-01753.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01753.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01753.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01753.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-01753.1b,mhs-23-01753,image,mhs23-01753.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01753.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01753.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01753.1b_th.jpg
 23-01754,STP8,3,1,METAL,BRASS,,,INSIGNIA,INSIGNIA,ISIGNIA MILITARY,,,,YES,mhs-23-01754,,artifact,,,,
@@ -4930,9 +4930,9 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-01785,STP7,3,3,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER,,,,,,,,,,,
 23-01786,TU21,3,1,CERAMIC,WHITEWARE,,,HOLLOWARE,HOLLOWARE,HOLLOWARE,,,,,,,,,,,
 23-01787,TU22,3,1,METAL,BRASS,,,JEWELRY,JEWELRY,CHAIN JEWELRY,,,,YES,mhs-23-01787,,artifact,,,,
-23-01788,STP4,3,1,METAL,BRASS,,,TOY,TOY,GUN BARREL,,,1a,YES,mhs-23-01788,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01788.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01788.1a_th.jpg
+23-01788,STP4,3,1,METAL,BRASS,,,TOY,TOY GUN,GUN BARREL,,,1a,YES,mhs-23-01788,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01788.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01788.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-01788.1a,mhs-23-01788,image,mhs_23-01788.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01788.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01788.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01788.1a_th.jpg
-23-01789,TU21,3,1,METAL,BRASS,SYNTHETIC,PLASTIC MISC,JEWELRY,JEWELRY,JEWELRY,,,1a,YES,mhs-23-01789,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01789.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01789.1a_th.jpg
+23-01789,TU21,3,1,METAL,BRASS,SYNTHETIC,PLASTIC MISC,JEWELRY,POCKET WATCH CHAIN,JEWELRY,,,1a,YES,mhs-23-01789,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01789.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01789.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-01789.1a,mhs-23-01789,image,mhs_23-01789.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01789.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01789.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01789.1a_th.jpg
 23-01790,TU8,1,2,CERAMIC,WHITEWARE,,,HOLLOWARE,HOLLOWARE,HOLLOWARE,,,,,,,,,,,
 23-01791,TU8,1,2,CERAMIC,WHITEWARE,,,HOLLOWARE,HOLLOWARE,HOLLOWARE,,,,,,,,,,,
@@ -5452,7 +5452,7 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-02302,11,2,2,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,CAP PEN,,,,,,,,,,,
 23-02303,11,2,2,SYNTHETIC,BAKELITE,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-02304,11,2,2,SYNTHETIC,RESIN,,,PAPER,PAPER,PLASTIC UNIDENTIFIED,,,,,,,,,,,
-23-02305,11,2,2,SYNTHETIC,PLASTIC MISC,,,BOTTLE,BOTTLE,CAP BOTTLE,,,1c,YES,mhs-23-02305,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02305.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02305.1c_th.jpg
+23-02305,11,2,2,SYNTHETIC,PLASTIC MISC,,,BOTTLE,ELMER'S GLUE BOTTLE CAP,CAP BOTTLE,,,1c,YES,mhs-23-02305,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02305.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02305.1c_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-02305.1c,mhs-23-02305,image,mhs_23-02305.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-02305.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02305.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02305.1c_th.jpg
 23-02306,11,2,2,SYNTHETIC,PLASTIC MISC,,,SPOON,SPOON,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-02307,11,2,2,SYNTHETIC,PLASTIC MISC,,,SPOON,SPOON,PLASTIC UNIDENTIFIED,,,,,,,,,,,
@@ -8888,5 +8888,5 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-23-05795.1a,mhs-23-05795,image,mhs_23-05795.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-05795.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-05795.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-05795.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-05795.1b,mhs-23-05795,image,mhs_23-05795.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-05795.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-05795.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-05795.1b_th.jpg
 23-05796,21,3,5,GLASS,GLASS,,,UNIDENTIFIED,UNIDENTIFIED,2 PART MOLD,,,,,,,,,,,
-23-05797,21,3,8,ORGANIC,BONE,,,TOOTHBRUSH,BRUSH,CARVED,,,1a,YES,mhs-23-05797,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23_05797.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23_05797.1a_th.jpg
+23-05797,21,3,8,ORGANIC,BONE,,,TOOTHBRUSH,BONE TOOTHBRUSH,CARVED,,,1a,YES,mhs-23-05797,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23_05797.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23_05797.1a_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-05797.1a,mhs-23-05797,image,mhs23_05797.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23_05797.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23_05797.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23_05797.1a_th.jpg
