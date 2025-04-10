@@ -46,10 +46,10 @@ page_gen:
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
-organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+organization-name: "Department of Culture, Society and Justice"
+organization-link: https://www.uidaho.edu/class/csj
+organization-logo-banner: /assets/img/UI_Idaho_Dept_Culture_Society_Justice_gold_and_white_horizontal_RGB.png
+organization-logo-nav: /assets/img/UI_Idaho_Dept_Culture_Society_Justice_gold_and_white_horizontal_RGB.png
 
 ##########
 # ROBOTS EXCLUDE
