@@ -7,4 +7,4 @@ metadata: mhs-catalog
 
 ## Browse Artifact Catalog
 
-The items below represent a selection of artifacts found by archaeologists at MHS during digs in 2019 and 2023.
+Explore a selection of objects found by archaeologists during digs at MHS in 2019 and 2023. 
