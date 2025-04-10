@@ -39,7 +39,7 @@ A `compound_object` can include any type of media that CollectionBuilder handles
 ### `multiple` Examples
 
 - Postcard: usually a compound object containing a front and back image. 
-- 3D archeological artifact: archeological objects are often imaged from standardized perspectives to provide experts information about the piece.
+- 3D archaeological artifact: archaeological objects are often imaged from standardized perspectives to provide experts information about the piece.
 - Gallery: a gallery of images from one event that are not individually described
  
 ## parentid
