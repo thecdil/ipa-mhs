@@ -1,5 +1,5 @@
 ---
-title: "Common Colds and Clothing Clasps: Getting Ready for a Day at School Part 2"
+title: "Common Colds and Clothing Clasps: Getting Ready for a Day at School (Part 2)"
 layout: page-full-width
 permalink: /colds2.html
 ---
