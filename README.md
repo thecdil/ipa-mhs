@@ -2,6 +2,8 @@
 
 Idaho Public Archaeology -- Moscow High School Project 
 
+<https://cdil.lib.uidaho.edu/ipa-mhs/>
+
 "Moscow High School: Its History + Its Archaeology"
 
 Public outreach exhibit developed by Massey Jordan (Archaeology, advisor Kat Eichner) and Evan Williamson (Library), 2024-25.
