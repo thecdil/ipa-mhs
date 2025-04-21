@@ -4425,7 +4425,8 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-01289,11,2,2,METAL,IRON,,,SCREW,SCREW,ARCHITECTURAL HARDWARE MISC,,,,,,,,,,,
 23-01290,11,2,2,METAL,IRON,,,NAIL,NAIL,NAIL WIRE,,,,,,,,,,,
 23-01291,11,2,2,METAL,IRON,,,NAIL,NAIL,NAIL WIRE,,,,,,,,,,,
-23-01292,11,2,2,METAL,ALUMINUM,,,CAN,CAN,PULL TAB,1975,PRESENT,,YES,mhs-23-01292,,artifact,,,,
+23-01292,11,2,2,METAL,ALUMINUM,,,CAN,CAN,PULL TAB,1975,PRESENT,,YES,mhs-23-01292,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01292.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01292.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01292.1a,mhs-23-01292,image,mhs23-01292.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01292.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01292.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01292.1a_th.jpg
 23-01293,11,2,2,METAL,COPPER,,,COIN,COIN,COIN,,,,YES,mhs-23-01293,,artifact,,,,
 23-01294,11,2,2,METAL,COPPER,,,COIN,COIN,COIN,1990,1990,,YES,mhs-23-01294,,artifact,,,,
 23-01295,11,2,2,METAL,ALUMINUM,,,LIGHT BULB,LIGHT BULB,FIXTURE,,,,,,,,,,,
@@ -4750,8 +4751,12 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-01614,STP 18,4,2,METAL,IRON,METAL,,NAIL,NAIL,NAIL WIRE COMMON,,,,,,,,,,,
 23-01615,3,1,1,METAL,IRON,METAL,,PIPE ARCHITECTURAL,PIPE ARCHITECTURAL,ARCHITECTURAL HARDWARE MISC,,,,,,,,,,,
 23-01616,3,1,1,METAL,IRON,METAL,PLASTIC MISC,CAP/LID,CAP/LID,CAP BOTTLE,,,,,,,,,,,
-23-01617,3,1,1,METAL,ZINC,METAL,COPPER,COIN,COIN,COIN,,,,,,,,,,,
-23-01618,3,1,1,METAL,ZINC,METAL,COPPER,COIN,COIN,COIN,,,,,,,,,,,
+23-01617,3,1,1,METAL,ZINC,METAL,COPPER,COIN,COIN,COIN,,,1e; 1f,YES,mhs-23-01617,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01617.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01617.1e_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01617.1e,mhs-23-01617,image,mhs23-01617.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01617.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01617.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01617.1e_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01617.1f,mhs-23-01617,image,mhs23-01617.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01617.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01617.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01617.1f_th.jpg
+23-01618,3,1,1,METAL,ZINC,METAL,COPPER,COIN,COIN,COIN,,,2e; 1f,YES,mhs-23-01618,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01618.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01618.1f_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01618.1f,mhs-23-01618,image,mhs23-01618.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01618.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01618.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01618.1f_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01618.2e,mhs-23-01618,image,mhs23-01618.2e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-01618.2e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-01618.2e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-01618.2e_th.jpg
 23-01619,24,8,5,MINERAL,BRICK,STONE,,BRICK,BRICK,BRICK,,,,,,,,,,,
 23-01620,3,1,1,METAL,IRON,METAL,,NAIL,NAIL,NAIL CUT COMMON,,,,,,,,,,,
 23-01621,3,1,1,METAL,IRON,METAL,,SCREW,SCREW,ARCHITECTURAL HARDWARE MISC,,,,,,,,,,,
@@ -4857,7 +4862,9 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-01721,TU8,1,2,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE MISC,,,,,,,,,,,
 23-01722,TU8,1,2,GLASS,GLASS,,,BOTTLE,BOTTLE,BOTTLE MISC,,,,,,,,,,,
 23-01723,TU8,1,2,GLASS,GLASS,,,TABLEWARE,TABLEWARE,TABLEWARE,,,,,,,,,,,
-23-01724,TU8,1,2,SYNTHETIC,PLASTIC MISC,,,BUTTON,BUTTON,BUTTON FLAT,,,,YES,mhs-23-01724,,artifact,,,,
+23-01724,TU8,1,2,SYNTHETIC,PLASTIC MISC,,,BUTTON,BUTTON,BUTTON FLAT,,,,YES,mhs-23-01724,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01724.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01724.1e_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01724.1e,mhs-23-01724,image,mhs_23-01724.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01724.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01724.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01724.1e_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01724.1f,mhs-23-01724,image,mhs_23-01724.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01724.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01724.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01724.1f_th.jpg
 23-01725,TU8,1,2,SYNTHETIC,PLASTIC MISC,,,COMB,COMB,COMB,,,,,,,,,,,
 23-01726,TU8,1,2,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-01727,TU8,1,2,ORGANIC,CHARCOAL,,,CHARCOAL,CHARCOAL,CHARCOAL,,,,,,,,,,,
@@ -4874,11 +4881,15 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-01738,STP7,3,6,METAL,IRON,,,SHEET METAL UNIDENTIFIED,SHEET METAL UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
 23-01739,STP7,3,6,METAL,IRON,,,WIRE,WIRE,UNIDENTIFIED,,,,,,,,,,,
 23-01740,STP21,1,3,METAL,IRON,,,TACK,TACK,TACK WIRE,,,,,,,,,,,
-23-01741,STP21,1,3,METAL,BRASS,,,CARTRIDGE,CARTRIDGE,CARTRIDGE CENTERFIRE,,,,YES,mhs-23-01741,,artifact,,,,
+23-01741,STP21,1,3,METAL,BRASS,,,CARTRIDGE,CARTRIDGE,CARTRIDGE CENTERFIRE,,,,YES,mhs-23-01741,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01741.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01741.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01741.1a,mhs-23-01741,image,mhs_23-01741.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01741.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01741.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01741.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01741.1c,mhs-23-01741,image,mhs_23-01741.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01741.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01741.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01741.1c_th.jpg
 23-01742,STP21,1,3,METAL,BRASS,,,FASTENER,FASTENER,UNIDENTIFIED,,,,,,,,,,,
 23-01743,TU8,1,2,METAL,IRON,,,SHEET METAL UNIDENTIFIED,SHEET METAL UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
 23-01744,TU8,1,2,METAL,SLAG,,,SLAG,SLAG,SLAG,,,,,,,,,,,
-23-01745,TU8,1,2,METAL,ALUMINUM,,,CAN,CAN,PULL TAB,,,,YES,mhs-23-01745,,artifact,,,,
+23-01745,TU8,1,2,METAL,ALUMINUM,,,CAN,CAN,PULL TAB,,,,YES,mhs-23-01745,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01745.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01745.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01745.1a,mhs-23-01745,image,mhs_23-01745.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01745.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01745.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01745.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01745.1b,mhs-23-01745,image,mhs_23-01745.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01745.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01745.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01745.1b_th.jpg
 23-01746,TU8,1,2,METAL,IRON,,,CAN,CAN,CAP,,,,,,,,,,,
 23-01747,TU8,1,2,METAL,IRON,,,NAIL,NAIL,NAIL CUT,,,,,,,,,,,
 23-01748,TU8,1,2,METAL,IRON,,,NAIL,NAIL,NAIL WIRE,,,,,,,,,,,
@@ -4906,7 +4917,10 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 ,,,,,,,,,,,,,,,mhs-23-01761.1c,mhs-23-01761,image,mhs_23-01761.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01761.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01761.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01761.1c_th.jpg
 23-01762,TU21,3,1,SYNTHETIC,PLASTIC MISC,,,BEAD,BEAD,BEAD,,,,,,,,,,,
 23-01763,TU21,3,1,SYNTHETIC,PLASTIC MISC,,,BEAD,BEAD,BEAD,,,,,,,,,,,
-23-01764,TU3,1,1,METAL,SILVER,,,JEWELRY,JEWELRY,CHARM,,,,YES,mhs-23-01764,,artifact,,,,
+23-01764,TU3,1,1,METAL,SILVER,,,JEWELRY,JEWELRY,CHARM,,,,YES,mhs-23-01764,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01764.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01764.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01764.1a,mhs-23-01764,image,mhs_23-01764.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01764.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01764.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01764.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01764.1c,mhs-23-01764,image,mhs_23-01764.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01764.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01764.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01764.1c_th.jpg
+,,,,,,,,,,,,,,,mhs-23-01764.1d,mhs-23-01764,image,mhs_23-01764.1d.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-01764.1d.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-01764.1d_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-01764.1d_th.jpg
 23-01765,TU21,3,1,SYNTHETIC,PLASTIC MISC,,,BEAD,BEAD,BEAD,,,,,,,,,,,
 23-01766,TU21,3,1,SYNTHETIC,PLASTIC MISC,,,BEAD,BEAD,BEAD,,,,,,,,,,,
 23-01767,TU21,3,1,SYNTHETIC,PLASTIC MISC,,,BEAD,BEAD,BEAD,,,,,,,,,,,
@@ -5346,7 +5360,8 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-02196,TU7,1,4,MINERAL,MORTAR,,,CONCRETE,CONCRETE,CONCRETE,,,,,,,,,,,
 23-02197,TU24,3,2,ORGANIC,WOOD,,,WOOD,WOOD,ARCHITECTURAL HARDWARE MISC,,,,,,,,,,,
 23-02198,STP25,2,1,MINERAL,BRICK,,,BRICK,BRICK,BRICK,,,,,,,,,,,
-23-02199,STP25,2,1,SYNTHETIC,GRAPHITE,,,BATTERY,BATTERY,BATTERY,,,,YES,mhs-23-02199,,artifact,,,,
+23-02199,STP25,2,1,SYNTHETIC,GRAPHITE,,,BATTERY,BATTERY,BATTERY,,,,YES,mhs-23-02199,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02199.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02199.1c_th.jpg
+,,,,,,,,,,,,,,,mhs-23-02199.1c,mhs-23-02199,image,mhs_23-02199.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-02199.1c.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02199.1c_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02199.1c_th.jpg
 23-02200,STP25,2,1,METAL,IRON,,,WIRE,WIRE,NAIL WIRE,,,,,,,,,,,
 23-02201,21,3,5,GLASS,GLASS,GLASS,,GLASS,GLASS,LID LINER/INSERT,,,,,,,,,,,
 23-02202,21,3,5,GLASS,GLASS,GLASS,,GLASS,GLASS,LID LINER/INSERT,,,,,,,,,,,
@@ -5448,7 +5463,9 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-02298,21,3,5,METAL,IRON,,,HOOK,HOOK,HOOK,,,,,,,,,,,
 23-02299,21,3,5,METAL,IRON,,,NAIL,NAIL,NAIL WIRE,,,,,,,,,,,
 23-02300,21,3,5,METAL,IRON,,,WIRE,WIRE,NAIL WIRE,,,,,,,,,,,
-23-02301,11,2,2,SYNTHETIC,PLASTIC MISC,,,RULER,RULER,PLASTIC UNIDENTIFIED,,,,YES,mhs-23-02301,,artifact,,,,
+23-02301,11,2,2,SYNTHETIC,PLASTIC MISC,,,RULER,RULER,PLASTIC UNIDENTIFIED,,,,YES,mhs-23-02301,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02301.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02301.1e_th.jpg
+,,,,,,,,,,,,,,,mhs-23-02301.1e,mhs-23-02301,image,mhs_23-02301.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-02301.1e.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02301.1e_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02301.1e_th.jpg
+,,,,,,,,,,,,,,,mhs-23-02301.1f,mhs-23-02301,image,mhs_23-02301.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-02301.1f.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02301.1f_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02301.1f_th.jpg
 23-02302,11,2,2,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,CAP PEN,,,,,,,,,,,
 23-02303,11,2,2,SYNTHETIC,BAKELITE,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-02304,11,2,2,SYNTHETIC,RESIN,,,PAPER,PAPER,PLASTIC UNIDENTIFIED,,,,,,,,,,,
@@ -7278,7 +7295,9 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-04119,TU 23,3,3,METAL,ALUMINUM,,,FOIL,FOIL,FOIL ALUMINIUM,,,,,,,,,,,
 23-04120,TU 23,3,3,SYNTHETIC,RUBBER VULCANIZED,,,BUTTON,BUTTON,BUTTON,,,,,,,,,,,
 23-04121,TU 23,3,3,ORGANIC,SHELL,,,BUTTON,BUTTON,BUTTON,,,,,,,,,,,
-23-04122,TU 23,3,3,METAL,BRASS,,,EYE,EYE,EYE,,,,YES,mhs-23-04122,,artifact,,,,
+23-04122,TU 23,3,3,METAL,BRASS,,,EYE,EYE,EYE,,,,YES,mhs-23-04122,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-04122.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-04122.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-04122.1a,mhs-23-04122,image,mhs_23-04122.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-04122.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-04122.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-04122.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-04122.1b,mhs-23-04122,image,mhs_23-04122.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-04122.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-04122.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-04122.1b_th.jpg
 23-04123,TU 23,3,3,METAL,BRASS,,,HOOK,HOOK,HOOK,,,,,,,,,,,
 23-04124,TU 23,3,3,METAL,SILVER,,,UNIDENTIFIED,UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
 23-04125,TU 23,3,3,METAL,STEEL,,,SCRAP METAL,SCRAP METAL,CAST METAL MISC,,,,,,,,,,,
