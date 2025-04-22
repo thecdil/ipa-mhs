@@ -3891,7 +3891,8 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-00765,TU 15,2,4,METAL,IRON,METAL,IRON,UNIDENTIFIED,UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
 23-00766,TU 15,2,4,MINERAL,COAL,MINERAL,,COAL,COAL,COAL,,,,,,,,,,,
 23-00767,TU 15,2,4,MINERAL,CHARCOAL,ORGANIC,,CHARCOAL,CHARCOAL,CHARCOAL,,,,,,,,,,,
-23-00768,TU 15,2,4,CERAMIC,PORCELAIN,CERAMIC,PORCELAIN,FLATWARE,FLATWARE,UNIDENTIFIED,,,1b,YES,mhs-23-00768,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-00768.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-00768.1b_th.jpg
+23-00768,TU 15,2,4,CERAMIC,PORCELAIN,CERAMIC,PORCELAIN,FLATWARE,FLATWARE,UNIDENTIFIED,,,1b,YES,mhs-23-00768,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-00768.2b.png,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-00768.2b_th.jpg
+,,,,,,,,,,,,,,,mhs-23-00768.2b,mhs-23-00768,image,mhs23-00768.2b.png,https://objects.lib.uidaho.edu/ipa-mhs/mhs23-00768.2b.png,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs23-00768.2b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs23-00768.2b_th.jpg
 ,,,,,,,,,,,,,,,mhs-23-00768.1b,mhs-23-00768,image,mhs_23-00768.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-00768.1b.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-00768.1b_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-00768.1b_th.jpg
 23-00769,TU 15,2,4,CERAMIC,EARTHENWARE REFINED INDETERMINATE,,,CERAMIC UNIDENTIFIED,CERAMIC UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
 23-00770,TU 15,2,4,CERAMIC,YELLOWWARE,,,HOLLOWARE,HOLLOWARE,BOWL SERVING LARGE,,,1a,YES,mhs-23-00770,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs2023_23-00770.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs2023_23-00770.1a_th.jpg
