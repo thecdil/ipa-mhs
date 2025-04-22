@@ -5486,7 +5486,8 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-02318,11,2,2,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,,,,,,,,,
 23-02319,11,2,2,SYNTHETIC,PLASTIC MISC,,,PEN,PEN,CAP PEN,,,,,,,,,,,
 23-02320,11,2,2,ORGANIC,WOOD,MINERAL,GRAPHITE,PENCIL,PENCIL,PENCIL WOOD,,,,YES,mhs-23-02320,,artifact,,,,
-23-02321,11,2,2,SYNTHETIC,PLASTIC MISC,,,BEAD,BEAD,BEAD,,,,,,,,,,,
+23-02321,11,2,2,SYNTHETIC,PLASTIC MISC,,,BEAD,BEAD,BEAD,,,,YES,mhs-23-02321,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02321.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02321.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-02321.1a,mhs-23-02321,image,mhs_23-02321.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-02321.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-02321.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-02321.1a_th.jpg
 23-02322,11,2,2,STONE,UNIDENTIFIED,,,UNIDENTIFIED,UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
 23-02323,11,2,2,SYNTHETIC,PLASTIC MISC,,,WRAPPER,WRAPPER,WRAPPER,,,,,,,,,,,
 23-02324,11,2,2,STONE,UNIDENTIFIED,,,UNIDENTIFIED,UNIDENTIFIED,UNIDENTIFIED,,,,,,,,,,,
@@ -7093,7 +7094,8 @@ catalog_number,unit_quad,area,ctx,mat_class_1,mat_type_1,mat_class_2,mat_type_2,
 23-03917,1,4,2,MINERAL,SEDIMENTARY ROCK,,,COAL,COAL,COAL,,,,,,,,,,,
 23-03918,1,4,2,ORGANIC,WOOD,,,WOOD,WOOD,ARCHITECTURAL HARDWARE MISC,,,,,,,,,,,
 23-03919,1,4,2,MINERAL,SLAG,,,SLAG,SLAG,SLAG,,,,,,,,,,,
-23-03920,1,4,2,CERAMIC,PORCELAIN,,,BUTTON,BUTTON,BUTTON,,,,YES,mhs-23-03920,,artifact,,,,
+23-03920,1,4,2,CERAMIC,PORCELAIN,,,BUTTON,BUTTON,BUTTON,,,,YES,mhs-23-03920,,artifact,,,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-03920.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-03920.1a_th.jpg
+,,,,,,,,,,,,,,,mhs-23-03920.1a,mhs-23-03920,image,mhs_23-03920.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/mhs_23-03920.1a.jpg,https://objects.lib.uidaho.edu/ipa-mhs/small/mhs_23-03920.1a_sm.jpg,https://objects.lib.uidaho.edu/ipa-mhs/thumbs/mhs_23-03920.1a_th.jpg
 23-03921,1,4,2,SYNTHETIC,GUM,,,FOOD ARTIFICAL,FOOD ARTIFICAL,FOOD ARTIFICAL,,,,,,,,,,,
 23-03922,1,4,2,MINERAL,CHALK,,,CHALK,CHALK,CHALK,,,,,,,,,,,
 23-03923,1,4,2,SYNTHETIC,PLASTIC MISC,,,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,PLASTIC UNIDENTIFIED,,,,,,,,,,,
