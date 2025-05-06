@@ -26,7 +26,7 @@
     <div class="jumbo-title-box">
         <div class="p-2 text-center text-white bg-dark bg-opacity-75">
             <h2 class="display-5 limelight-regular">{{ include.heading }}</h2>
-            <p class="jumbo-tagline">{{ include.text }}</p>
+            <p class="jumbo-tagline"><span class="fs-3">{{ include.text }}</span><br><em>by {{ include.author }}</em></p>
             <p>
                 {% if include.link1 %}
                 <a href="{{ include.link1 | relative_url }}" class="btn btn-mhs btn-lg mx-2">{{ include.link1_text | default: 'View Exhibit' }}</a>
