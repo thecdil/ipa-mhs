@@ -1,0 +1,17 @@
+<!-- StoryMapJS https://storymap.knightlab.com/advanced/ -->
+<link rel="stylesheet" href="{{ '/assets/lib/storymapjs/css/storymap.css' | relative_url }}">
+<script src="{{ '/assets/lib/storymapjs/js/storymap-min.js' | relative_url }}"></script>
+
+<script>
+    // storymapjs JSON link
+    var storymap_data = "{{ page.storymap-json | relative_url }}";
+
+    // storymapjs options
+    var storymap_options = {};
+
+    // init storymap
+    var storymap = new KLStoryMap.StoryMap('mapdiv', storymap_data, storymap_options);
+    window.onresize = function(event) {
+        storymap.updateDisplay(); 
+    }
+</script>
